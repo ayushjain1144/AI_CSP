@@ -15,6 +15,39 @@ from functools import partial
 is_with_constraint_prop = 0
 is_MRV = 0
 
+class CSP():
+
+    def __init__(self, variables, domains, neighbors, constraints):
+
+        self.variables = variables
+        self.domains = domains
+        self.neighbors = neighbors
+        self.constraints = constraints
+        self.initial = ()
+
+class MainWidget(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+
+        self.setWindowTitle(f"AI Game")
+        window = QWidget()
+
+        self.setCentralWidget(window)
+        self.resize(400, 400)
+        self.center()
+        self.show()
+
+    def center(self):
+
+        qr = self.frameGeometry()
+        cp  = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
+
+
+
+
 class FirstWidget(QMainWindow):
 
     def __init__(self):
@@ -122,7 +155,7 @@ class SecondWidget(QMainWindow):
 
         global is_MRV
         is_MRV = val
-        self.win = ThirdWidget()
+        self.win = MainWidget()
         self.win.show()
         self.close()
 
