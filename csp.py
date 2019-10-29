@@ -15,7 +15,8 @@ from functools import partial
 
 # Predefined CSP Problem
 
-Constraints = {'G1': [3, 5, 8, 9, 12, 18, 19],
+default_m = 20
+default_groups = {'G1': [3, 5, 8, 9, 12, 18, 19],
                 'G2': [8, 9, 12, 19, 2],
                 'G3': [3, 5, 4, 16, 8, 9, 19],
                 'G4': [8, 9, 12, 15],
@@ -31,7 +32,7 @@ Constraints = {'G1': [3, 5, 8, 9, 12, 18, 19],
                 'G14': [3, 5, 11, 9, 10, 17, 19, 20],
                 'G15': [2, 8, 12, 18, 19, 20]}
 
-Domains = {'N1': [2, 5, 7],
+default_domains = {'N1': [2, 5, 7],
            'N2': [1, 4, 6, 2],
            'N3': [2, 5, 6, 1],
            'N4': [2, 4, 6, 8],
@@ -50,7 +51,7 @@ Domains = {'N1': [2, 5, 7],
            'N17': [1, 4, 5, 6],
            'N18': [5, 4],
            'N19': [1, 3, 6, 8],
-           'N20': [6]}                
+           'N20': [6]}
 
 
 
@@ -83,8 +84,6 @@ class CSP():
         if var in assignment:
             del assignment[var]
 
-    def num_conflicts(self, var, val, assignment):
-        """Returns the number of conflicts tbe the assignment of var = val will have"""
 
 
 
@@ -97,8 +96,11 @@ class MainWidget(QMainWindow):
         window = QWidget()
 
         self.setCentralWidget(window)
-        self.resize(400, 400)
+        self.resize(1800, 950)
         self.center()
+
+        self.build_neighbours()
+
         self.show()
 
     def center(self):
@@ -107,6 +109,25 @@ class MainWidget(QMainWindow):
         cp  = QDesktopWidget().availableGeometry().center()
         qr.moveCenter(cp)
         self.move(qr.topLeft())
+
+    def  build_neighbours(self, group = default_groups, m = default_m):
+        """Returns the adjacency dict"""
+
+        adjacency_dict = {}
+        for var in range(m):
+            neighbors = []
+            for g in group.values():
+
+                if var + 1 in g:
+                    neighbors.extend(g)
+                    neighbors.remove(var + 1)
+                    #print(neighbors)
+
+
+            neighbors = list(set(neighbors))
+            adjacency_dict[var + 1] = neighbors
+        print(adjacency_dict)
+
 
 
 
@@ -151,7 +172,7 @@ class FirstWidget(QMainWindow):
 
         window.setLayout(vert_layout)
         self.setCentralWidget(window)
-        self.resize(400, 400)
+        self.resize(600, 600)
         self.center()
         self.show()
 
@@ -210,7 +231,7 @@ class SecondWidget(QMainWindow):
 
         window.setLayout(vert_layout)
         self.setCentralWidget(window)
-        self.resize(400, 400)
+        self.resize(600, 600)
         self.center()
         self.show()
 
@@ -233,5 +254,5 @@ class SecondWidget(QMainWindow):
 
 
 app = QApplication(sys.argv)
-ex = FirstWidget()
+ex = MainWidget()
 sys.exit(app.exec_())
