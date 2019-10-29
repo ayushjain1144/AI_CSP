@@ -10,7 +10,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 import sys
 from functools import partial
-
+import re
 #######################################
 
 # Predefined CSP Problem
@@ -32,26 +32,26 @@ default_groups = {'G1': [3, 5, 8, 9, 12, 18, 19],
                 'G14': [3, 5, 11, 9, 10, 17, 19, 20],
                 'G15': [2, 8, 12, 18, 19, 20]}
 
-default_domains = {'N1': [2, 5, 7],
-           'N2': [1, 4, 6, 2],
-           'N3': [2, 5, 6, 1],
-           'N4': [2, 4, 6, 8],
-           'N5': [2, 6, 5],
-           'N6': [1, 5, 3],
-           'N7': [2, 4, 6, 1, 8],
-           'N8': [1, 3, 4],
-           'N9': [4, 1, 5, 8, 6],
-           'N10': [8],
-           'N11': [2, 3],
-           'N12': [1, 2, 3, 4, 7],
-           'N13': [7, 1, 8],
-           'N14': [5, 3, 6, 1],
-           'N15': [2, 5],
-           'N16': [2, 5, 1, 4],
-           'N17': [1, 4, 5, 6],
-           'N18': [5, 4],
-           'N19': [1, 3, 6, 8],
-           'N20': [6]}
+default_domains = {1: [2, 5, 7],
+           2: [1, 4, 6, 2],
+           3: [2, 5, 6, 1],
+           4: [2, 4, 6, 8],
+           5: [2, 6, 5],
+           6: [1, 5, 3],
+           7: [2, 4, 6, 1, 8],
+           8: [1, 3, 4],
+           9: [4, 1, 5, 8, 6],
+           10: [8],
+           11: [2, 3],
+           12: [1, 2, 3, 4, 7],
+           13: [7, 1, 8],
+           14: [5, 3, 6, 1],
+           15: [2, 5],
+           16: [2, 5, 1, 4],
+           17: [1, 4, 5, 6],
+           18: [5, 4],
+           19: [1, 3, 6, 8],
+           20: [6]}
 
 
 
@@ -99,9 +99,13 @@ class MainWidget(QMainWindow):
         self.resize(1800, 950)
         self.center()
 
-        self.build_neighbours()
+        self.adjacency_dict = self.build_neighbours()
+        self.ordered_variable_list = self.build_variable_list()
+        self.number_assigned = 0
+        self.assignment = {}
+        #print(self.ordered_variable_list)
 
-        self.show()
+        #self.show()
 
     def center(self):
 
@@ -126,7 +130,74 @@ class MainWidget(QMainWindow):
 
             neighbors = list(set(neighbors))
             adjacency_dict[var + 1] = neighbors
-        print(adjacency_dict)
+        #print(adjacency_dict)
+        return adjacency_dict
+
+    def is_neighbor(self, A, B):
+        """Returns true if A and B are neighbors"""
+
+
+        if A in self.adjacency_dict[B]:
+            return True
+        else:
+            return False
+
+
+    def constraint(self, A, a, B, b):
+        """If B is a neighbour of A and a = b, then they are involved in constraint"""
+        """a and b should be in respective domains"""
+
+        try:
+            assert(a in default_domains[A])
+            assert(b in default_domains[B])
+        except Exception:
+            print("Values out of domains")
+            print("Exiting")
+            sys.exit()
+        if self.is_neighbor(A, B) and a == b:
+            return True
+        return False
+
+    def build_variable_list(self, m = default_m):
+        """Returns list of variables"""
+
+        var_list = [i + 1 for i in range(m)]
+        return var_list
+
+    def is_complete_assignmnet(self, assignment, m = default_m):
+        """Returns true if assignment is complete"""
+
+        count = 0
+        for var in assignment:
+            count += 1
+        if count == m:
+            return True
+        else:
+            return False
+
+    def backtrack_search(self):
+        """Implements backtrack search, returns assignment or failure"""
+        return self.backtrack({})
+
+    def backtrack(self, assignment):
+        if self.is_complete_assignmnet(assignment):
+            return assignment
+
+            
+
+
+
+
+
+
+
+
+            #assign
+
+
+
+
+
 
 
 
