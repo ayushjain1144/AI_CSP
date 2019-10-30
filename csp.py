@@ -15,8 +15,8 @@ import re
 
 # Predefined CSP Problem
 
-default_m = 20
-default_groups = {'G1': [3, 5, 8, 9, 12, 18, 19],
+default_m1 = 20
+default_groups1 = {'G1': [3, 5, 8, 9, 12, 18, 19],
                 'G2': [8, 9, 12, 19, 2],
                 'G3': [3, 5, 4, 16, 8, 9, 19],
                 'G4': [8, 9, 12, 15],
@@ -27,12 +27,12 @@ default_groups = {'G1': [3, 5, 8, 9, 12, 18, 19],
                 'G9': [3, 13, 8, 9, 7, 19, 20],
                 'G10': [1, 8, 9, 13, 20],
                 'G11': [18, 19, 20],
-                'G12': [13, 11, 8, 18, 19, 20],
+                'G12': [3, 11, 8, 18, 19, 20],
                 'G13': [3, 8, 10, 12, 4, 20],
                 'G14': [3, 5, 11, 9, 10, 17, 19, 20],
                 'G15': [2, 8, 12, 18, 19, 20]}
 
-default_domains = {1: [2, 5, 7],
+default_domains1 = {1: [2, 5, 7],
            2: [1, 4, 6, 2],
            3: [2, 5, 6, 1],
            4: [2, 4, 6, 8],
@@ -53,12 +53,23 @@ default_domains = {1: [2, 5, 7],
            19: [1, 3, 6, 8],
            20: [6]}
 
+default_m = 4
+default_groups = {'G1': [1, 2],
+                    'G2': [3, 4],
+                    'G3': [1, 3]}
+default_domains = {1: [1, 2],
+                    2: [2, 4, 5],
+                    3: [2, 3, 4],
+                    4: [3, 4]}
+
+
 
 
 
 #########################################
 is_with_constraint_prop = 0
 is_MRV = 0
+is_Degree = 0
 
 class CSP():
 
@@ -84,9 +95,6 @@ class CSP():
         if var in assignment:
             del assignment[var]
 
-
-
-
 class MainWidget(QMainWindow):
 
     def __init__(self):
@@ -99,10 +107,23 @@ class MainWidget(QMainWindow):
         self.resize(1800, 950)
         self.center()
 
+        self.current_domains = default_domains
         self.adjacency_dict = self.build_neighbours()
         self.ordered_variable_list = self.build_variable_list()
         self.number_assigned = 0
         self.assignment = {}
+
+        print(self.current_domains)
+        print(self.adjacency_dict)
+        print(self.order_variable_list)
+
+        assignment = self.backtrack_search()
+
+        if assignment == None:
+            print("No assignment possible")
+        else:
+            print(assignment)
+        #print(self.mrv({10: 1, 20 : 2}))
         #print(self.ordered_variable_list)
 
         #self.show()
@@ -176,14 +197,92 @@ class MainWidget(QMainWindow):
             return False
 
     def backtrack_search(self):
-        """Implements backtrack search, returns assignment or failure"""
+        """Implements backtrack search, returns assignment or None"""
         return self.backtrack({})
+
+    def mrv(self, assignment):
+        """Returns the variable with minimum valid moves"""
+
+        min = float('Inf')
+        min_var = None
+        for var in self.adjacency_dict:
+            if var not in assignment:
+                if len(self.current_domains[var]) < min:
+                    min = len(self.current_domains[var])
+                    min_var = var
+        if min == 0:
+            return None
+        else:
+            return min_var
+
+
+    def degree_heurestic(self, assignment):
+        """Returns the variable involved in highest number of constraints"""
+
+        min = float('Inf')
+        min_var = None
+        for var in self.adjacency_dict:
+            count = count([v for v in self.adjacency_dict[var] if v not in assignment])
+            if count == 0:
+                return None
+            if count < min:
+                min = count
+                min_var = var
+        return var
+
+
+    def order_variable_list(self, assignment):
+        """Returns the next variable to be chosen"""
+
+        if is_MRV:
+            return self.mrv(assignment)
+        elif is_Degree:
+            return self.degree_heurestic(assignment)
+        else:
+            #print(len(assignment))
+            #print(self.ordered_variable_list)
+            return self.ordered_variable_list[len(assignment)]
+
+    def is_consistent(self, assignment, var, val):
+        """Tests if var = val is consistent or not"""
+
+        for A, a in assignment.items():
+            if self.constraint(A, a, var, val):
+                return False
+        return True
+
+
 
     def backtrack(self, assignment):
         if self.is_complete_assignmnet(assignment):
             return assignment
 
-            
+        number_assigned = len(assignment)
+
+        var = self.order_variable_list(assignment)
+
+        print(f"{var} returned by order_variable_list")
+        if var is None:
+            return None
+
+        for value in self.current_domains[var]:
+            print(value)
+            if self.is_consistent(assignment, var, value):
+                print("Returned True")
+                assignment[var] = value
+
+            #if is_with_constraint_prop == 1:
+                #inference = self.ac3()
+                #if inference
+                result = self.backtrack(assignment)
+                if result != None:
+                    return result
+            if var in assignment:
+                del assignment[var]
+        return None
+
+
+
 
 
 
