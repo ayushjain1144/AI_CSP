@@ -14,9 +14,9 @@ import re
 #######################################
 
 # Predefined CSP Problem
-
-default_m1 = 20
-default_groups1 = {'G1': [3, 5, 8, 9, 12, 18, 19],
+number_nodes = 0
+default_m = 20
+default_groups = {'G1': [3, 5, 8, 9, 12, 18, 19],
                 'G2': [8, 9, 12, 19, 2],
                 'G3': [3, 5, 4, 16, 8, 9, 19],
                 'G4': [8, 9, 12, 15],
@@ -32,7 +32,7 @@ default_groups1 = {'G1': [3, 5, 8, 9, 12, 18, 19],
                 'G14': [3, 5, 11, 9, 10, 17, 19, 20],
                 'G15': [2, 8, 12, 18, 19, 20]}
 
-default_domains1 = {1: [2, 5, 7],
+default_domains = {1: [2, 5, 7],
            2: [1, 4, 6, 2],
            3: [2, 5, 6, 1],
            4: [2, 4, 6, 8],
@@ -53,11 +53,11 @@ default_domains1 = {1: [2, 5, 7],
            19: [1, 3, 6, 8],
            20: [6]}
 
-default_m = 4
-default_groups = {'G1': [1, 2],
-                    'G2': [3, 4],
-                    'G3': [1, 3]}
-default_domains = {1: [1, 2],
+default_m1 = 4
+default_groups1 = {'G1': [1, 2],
+                    'G2': [1, 3, 4],
+                    'G3': [1, 3, 2]}
+default_domains1 = {1: [2, 3],
                     2: [2, 4, 5],
                     3: [2, 3, 4],
                     4: [3, 4]}
@@ -69,7 +69,7 @@ default_domains = {1: [1, 2],
 #########################################
 is_with_constraint_prop = 0
 is_MRV = 0
-is_Degree = 0
+is_Degree = 1
 
 class CSP():
 
@@ -113,9 +113,9 @@ class MainWidget(QMainWindow):
         self.number_assigned = 0
         self.assignment = {}
 
-        print(self.current_domains)
+        #print(self.current_domains)
         print(self.adjacency_dict)
-        print(self.order_variable_list)
+        #print(self.order_variable_list)
 
         assignment = self.backtrack_search()
 
@@ -219,16 +219,16 @@ class MainWidget(QMainWindow):
     def degree_heurestic(self, assignment):
         """Returns the variable involved in highest number of constraints"""
 
-        min = float('Inf')
+        min = -float('Inf')
         min_var = None
         for var in self.adjacency_dict:
-            count = count([v for v in self.adjacency_dict[var] if v not in assignment])
-            if count == 0:
-                return None
-            if count < min:
-                min = count
-                min_var = var
-        return var
+            if var not in assignment:
+                count1 = len([v for v in self.adjacency_dict[var] if v not in assignment])
+                #print(count1)
+                if count1 > min:
+                    min = count1
+                    min_var = var
+        return min_var
 
 
     def order_variable_list(self, assignment):
@@ -257,18 +257,24 @@ class MainWidget(QMainWindow):
         if self.is_complete_assignmnet(assignment):
             return assignment
 
+
         number_assigned = len(assignment)
 
         var = self.order_variable_list(assignment)
 
-        print(f"{var} returned by order_variable_list")
+        #print(f"{var} returned by order_variable_list")
         if var is None:
             return None
 
         for value in self.current_domains[var]:
-            print(value)
+
+            global number_nodes
+            number_nodes += 1
+            if number_nodes % 100 == 0:
+                print(assignment, number_nodes)
+            #print(value)
             if self.is_consistent(assignment, var, value):
-                print("Returned True")
+                #print("Returned True")
                 assignment[var] = value
 
             #if is_with_constraint_prop == 1:
@@ -279,26 +285,8 @@ class MainWidget(QMainWindow):
                     return result
             if var in assignment:
                 del assignment[var]
+        #print(assignment)
         return None
-
-
-
-
-
-
-
-
-
-
-
-            #assign
-
-
-
-
-
-
-
 
 
 
