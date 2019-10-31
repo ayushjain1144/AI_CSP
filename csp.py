@@ -94,14 +94,28 @@ class MainWidget(QMainWindow):
         self.resize(1800, 950)
         self.center()
 
+        if not is_default_input:
+            global default_m
+            global default_groups
+            global default_domains
+            global input_groups
+            global input_domains
+            global num_novels
+
+            default_m = num_novels
+            default_domains = input_domains
+            default_groups = input_groups
+
         self.current_domains = default_domains
         self.adjacency_dict = self.build_neighbours()
+        print(f"adjacency_dict: {self.adjacency_dict}")
         self.ordered_variable_list = self.build_variable_list()
+
         self.number_assigned = 0
         self.assignment = {}
 
-        #print(self.current_domains)
-        print(self.adjacency_dict)
+        print(f"current_domains: {self.current_domains}")
+        print(f"adjacency_dict: {self.adjacency_dict}")
         #print(self.order_variable_list)
 
 
@@ -128,8 +142,17 @@ class MainWidget(QMainWindow):
         qr.moveCenter(cp)
         self.move(qr.topLeft())
 
-    def  build_neighbours(self, group = default_groups, m = default_m):
+    def  build_neighbours(self):
         """Returns the adjacency dict"""
+
+        print("Inside build neighbors")
+        global default_groups
+        global default_m
+        m = default_m
+        group = default_groups
+        print(group)
+        #print(default_domains)
+        print(m)
 
         adjacency_dict = {}
         for var in range(m):
@@ -162,11 +185,11 @@ class MainWidget(QMainWindow):
         """a and b should be in respective domains"""
 
         try:
-            assert(a in default_domains[A])
-            assert(b in default_domains[B])
+            assert(a in self.current_domains[A])
+            assert(b in self.current_domains[B])
         except Exception:
             print("Values out of domains")
-            print(default_domains)
+            print(self.current_domains)
             print(A, a, B, b)
             print("Exiting")
             sys.exit()
@@ -174,15 +197,19 @@ class MainWidget(QMainWindow):
             return True
         return False
 
-    def build_variable_list(self, m = default_m):
+    def build_variable_list(self):
         """Returns list of variables"""
+        global default_m
+        m = default_m
 
         var_list = [i + 1 for i in range(m)]
         return var_list
 
-    def is_complete_assignmnet(self, assignment, m = default_m):
+    def is_complete_assignmnet(self, assignment):
         """Returns true if assignment is complete"""
 
+        global default_m
+        m = default_m
         count = 0
         for var in assignment:
             count += 1
@@ -613,6 +640,7 @@ class FormWidget2(QMainWindow):
 
         global input_domains
         print(input_domains)
+        print(input_groups)
         self.win = PrintWidget1()
         self.win.show()
         self.close()
@@ -671,6 +699,10 @@ class PrintWidget1(QMainWindow):
         self.label2.setFont(font)
         group_string = ""
 
+        global input_groups
+        global input_domains
+
+        #print(f"\n{input_groups}\n{input_domains}")
         for i in input_groups:
             group_string = group_string + 'G' + str(i) + ' : ' + str(input_groups[i]) + '\n'
         self.label2.setText(group_string + '\n')
@@ -693,10 +725,10 @@ class PrintWidget1(QMainWindow):
 
         for i in input_domains:
             novel_string = novel_string + 'N' + str(i) + ' : ' + str(input_domains[i]) + '\n'
-        self.label2.setText(novel_string + '\n')
+        self.label4.setText(novel_string + '\n')
 
 
-        self.label4.setText(novel_string)
+        #self.label4.setText(novel_string)
 
 
         layout =QHBoxLayout()
