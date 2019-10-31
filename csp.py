@@ -22,6 +22,7 @@ default_m = 20
 
 num_groups = 0
 num_novels = 0
+limit = 0
 
 input_groups = {}
 input_domains = {}
@@ -410,9 +411,11 @@ class AskWidget(QMainWindow):
 
         self.add1 = QLineEdit()
         self.add2 = QLineEdit()
+        self.add3 = QLineEdit()
         fbox = QFormLayout()
         fbox.addRow(QLabel("Number of groups"), self.add1)
         fbox.addRow(QLabel("Number of Laureates"), self.add2)
+        fbox.addRow(QLabel("Largest value of Time Slot"), self.add3)
         fbox.addRow(self.normal_button)
 
         #layout =QHBoxLayout()
@@ -455,9 +458,11 @@ class AskWidget(QMainWindow):
     def open_game(self, val):
         global num_groups
         global num_novels
+        global limit
 
         num_groups = int(self.add1.text())
         num_novels = int(self.add2.text())
+        limit = int(self.add3.text())
         #print(num_groups, num_laureates)
         self.win = FormWidget1()
         self.win.show()
@@ -469,6 +474,7 @@ class AskWidget(QMainWindow):
         cp  = QDesktopWidget().availableGeometry().center()
         qr.moveCenter(cp)
         self.move(qr.topLeft())
+
 
 
 class FormWidget1(QMainWindow):
@@ -523,24 +529,7 @@ class FormWidget1(QMainWindow):
         #self.showMaximized()
         self.show()
 
-    def createWidgets(self):
-        self.formGroupBox = QGroupBox("Inputs")
-        layout = QFormLayout()
-        layout.addRow(QLabel("number groups"), QLineEdit())
-        layout.addRow(QLabel("number Laureates"), QLineEdit())
-        self.formGroupBox.setLayout(layout)
 
-    def get_num_novels(self):
-        global num_novels
-        num_novels, ok_pressed = QInputDialog.getInt(self, "Get Laureates", "Number of Laureates:", 1, 1, 15, 1)
-        if not ok_pressed:
-            sys.exit()
-
-    def get_num_groups(self):
-        global num_groups
-        num_groups, ok_pressed = QInputDialog.getInt(self, "Get Groups", "Number of Groups:", 1, 1, 25, 1)
-        if not ok_pressed:
-            sys.exit()
 
     def open_game(self, val):
 
@@ -554,7 +543,10 @@ class FormWidget1(QMainWindow):
         global input_groups
 
         if i + 1 in input_groups:
-            input_groups[i + 1].append(j + 1)
+            if j + 1 not in input_groups[i + 1]:
+                input_groups[i + 1].append(j + 1)
+            else:
+                input_groups[i+1].remove(j+1)
         else:
             input_groups[i + 1] = [j + 1]
 
@@ -566,6 +558,200 @@ class FormWidget1(QMainWindow):
         qr.moveCenter(cp)
         self.move(qr.topLeft())
 
+class FormWidget2(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle(f"INPUT")
+        window = QWidget()
+
+        self.normal_button = QPushButton()
+        #self.normal_button.setFixedSize(QSize(200, 100))
+        self.normal_button.setText("Display my inputs")
+        self.normal_button.pressed.connect(partial(self.open_game, 1))
+
+        global num_groups
+        global num_novels
+        global limit
+
+        fbox = QFormLayout()
+
+        for i in range(num_novels):
+            take_group_box = QHBoxLayout()
+            for j in range(limit):
+                q1 = QCheckBox(str(j + 1))
+                #q1.toggle()
+                q1.stateChanged.connect(partial(self.fillDomain, i, j))
+                take_group_box.addWidget(q1)
+
+            take_group_box.addStretch()
+            fbox.addRow(QLabel("N" + str(i + 1)), take_group_box)
+
+        fbox.addRow(self.normal_button)
+
+        #layout =QHBoxLayout()
+        #layout.addWidget(self.normal_button)
+        #layout.addWidget(self.ab_button)
+
+        vert_layout = QVBoxLayout()
+        #vert_layout.addWidget(self.label1)
+        vert_layout.addLayout(fbox)
+        #vert_layout.addLayout(layout)
+
+        window.setLayout(vert_layout)
+        self.setCentralWidget(window)
+        #self.resize(400, 400)
+        self.center()
+    #self.get_num_groups()
+        #self.get_num_novels()
+        #self.showMaximized()
+        self.show()
+
+
+
+    def open_game(self, val):
+
+        global input_domains
+        print(input_domains)
+        self.win = PrintWidget1()
+        self.win.show()
+        self.close()
+
+    def fillDomain(self, i, j):
+        global input_domains
+
+        if i + 1 in input_domains:
+            if j + 1 not in input_domains[i + 1]:
+                input_domains[i + 1].append(j + 1)
+            else:
+                input_domains[i + 1].remove(j + 1)
+        else:
+            input_domains[i + 1] = [j + 1]
+
+
+    def center(self):
+
+        qr = self.frameGeometry()
+        cp  = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
+
+class PrintWidget1(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle(f"AI Game")
+        window = QWidget()
+
+        self.normal_button = QPushButton()
+        self.normal_button.setFixedSize(QSize(200, 100))
+        self.normal_button.setText("Start Scheduling")
+        self.normal_button.pressed.connect(partial(self.open_game, 1))
+
+        self.label = QLabel()
+        self.label.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        font = self.label.font()
+        font.setPointSize(20)
+        font.setWeight(65)
+        self.label.setFont(font)
+        self.label.setText("The values\n\n")
+
+        self.label1 = QLabel()
+        #self.label1.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        font = self.label1.font()
+        font.setPointSize(20)
+        font.setWeight(65)
+        self.label1.setFont(font)
+        self.label1.setText("Groups: \n")
+
+        self.label2 = QLabel()
+        #self.label2.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        font = self.label2.font()
+        font.setPointSize(10)
+        self.label2.setFont(font)
+        self.label2.setText(" 'G1': [3, 5, 8, 9, 12, 18, 19] \n \
+'G2': [8, 9, 12, 19, 2], \n \
+'G3': [3, 5, 4, 16, 8, 9, 19], \n \
+'G4': [8, 9, 12, 15], \n \
+'G5': [15, 16, 17, 18, 19, 20], \n \
+'G6': [3, 5, 7, 11, 14, 20], \n \
+'G7': [3, 5, 12, 2, 18, 19, 20, 1], \n \
+'G8': [3, 5, 8, 9, 10, 18, 19, 20], \n \
+'G9': [3, 13, 8, 9, 7, 19, 20], \n \
+'G10': [1, 8, 9, 13, 20], \n \
+'G11': [18, 19, 20],\n \
+'G12': [3, 11, 8, 18, 19, 20], \n \
+'G13': [3, 8, 10, 12, 4, 20], \n \
+'G14': [3, 5, 11, 9, 10, 17, 19, 20], \n \
+'G15': [2, 8, 12, 18, 19, 20] \n\n")
+
+        self.label3 = QLabel()
+        #self.label3.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        font = self.label3.font()
+        font.setPointSize(20)
+        font.setWeight(65)
+        self.label3.setFont(font)
+        self.label3.setText("Domains: \n")
+
+        self.label4 = QLabel()
+        #self.label4.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        font = self.label4.font()
+        font.setPointSize(10)
+        self.label4.setFont(font)
+
+
+        self.label4.setText(" N1: [2, 5, 7],  \n \
+N2: [1, 4, 6, 2], \n \
+N3: [2, 5, 6, 1], \n \
+N4: [2, 4, 6, 8], \n \
+N5: [2, 6, 5], \n \
+N6: [1, 5, 3], \n \
+N7: [2, 4, 6, 1, 8], \n \
+N8: [1, 3, 4], \n \
+N9: [4, 1, 5, 8, 6], \n \
+N10: [8], \n \
+N11: [2, 3], \n \
+N12: [1, 2, 3, 4, 7], \n \
+N13: [7, 1, 8], \n \
+N14: [5, 3, 6, 1], \n \
+N15: [2, 5], \n \
+N16: [2, 5, 1, 4], \n \
+N17: [1, 4, 5, 6], \n \
+N18: [5, 4], \n \
+N19: [1, 3, 6, 8], \n N20: [6]")
+
+
+        layout =QHBoxLayout()
+        layout.addWidget(self.normal_button)
+        #layout.addWidget(self.ab_button)
+
+        vert_layout = QVBoxLayout()
+        vert_layout.addWidget(self.label)
+        vert_layout.addWidget(self.label1)
+        vert_layout.addWidget(self.label2)
+        vert_layout.addWidget(self.label3)
+        vert_layout.addWidget(self.label4)
+        vert_layout.addLayout(layout)
+
+        window.setLayout(vert_layout)
+        self.setCentralWidget(window)
+        #self.resize(600, 600)
+        #self.center()
+        self.showMaximized()
+        self.show()
+
+    def open_game(self, val):
+
+        self.win = FirstWidget()
+        self.win.show()
+        self.close()
+
+    def center(self):
+
+        qr = self.frameGeometry()
+        cp  = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
 
 class PrintWidget(QMainWindow):
 
