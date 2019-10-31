@@ -22,6 +22,9 @@ default_m = 20
 
 num_groups = 0
 num_novels = 0
+
+input_groups = {}
+input_domains = {}
 default_groups = {'G1': [3, 5, 8, 9, 12, 18, 19],
                 'G2': [8, 9, 12, 19, 2],
                 'G3': [3, 5, 4, 16, 8, 9, 19],
@@ -454,9 +457,9 @@ class AskWidget(QMainWindow):
         global num_novels
 
         num_groups = int(self.add1.text())
-        num_laureates = int(self.add2.text())
+        num_novels = int(self.add2.text())
         #print(num_groups, num_laureates)
-        self.win = FormWidget()
+        self.win = FormWidget1()
         self.win.show()
         self.close()
 
@@ -468,7 +471,7 @@ class AskWidget(QMainWindow):
         self.move(qr.topLeft())
 
 
-class FormWidget(QMainWindow):
+class FormWidget1(QMainWindow):
 
     def __init__(self):
         super().__init__()
@@ -477,18 +480,29 @@ class FormWidget(QMainWindow):
 
         self.normal_button = QPushButton()
         #self.normal_button.setFixedSize(QSize(200, 100))
-        self.normal_button.setText("Start Taking Input")
+        self.normal_button.setText("Take further input")
         self.normal_button.pressed.connect(partial(self.open_game, 1))
 
 
-        
+
+        global num_groups
+        global num_novels
+        self.group_var_list = []
 
 
-        self.add1 = QLineEdit()
-        self.add2 = QLineEdit()
         fbox = QFormLayout()
-        fbox.addRow(QLabel("number groups"), self.add1)
-        fbox.addRow(QLabel("number Laureates"), self.add2)
+
+        for i in range(num_groups):
+            take_group_box = QHBoxLayout()
+            for j in range(num_novels):
+                q1 = QCheckBox("N" + str(j + 1))
+                #q1.toggle()
+                q1.stateChanged.connect(partial(self.fillDomain, i, j))
+                take_group_box.addWidget(q1)
+
+            take_group_box.addStretch()
+            fbox.addRow(QLabel("G" + str(i + 1)), take_group_box)
+
         fbox.addRow(self.normal_button)
 
         #layout =QHBoxLayout()
@@ -496,7 +510,7 @@ class FormWidget(QMainWindow):
         #layout.addWidget(self.ab_button)
 
         vert_layout = QVBoxLayout()
-        vert_layout.addWidget(self.label1)
+        #vert_layout.addWidget(self.label1)
         vert_layout.addLayout(fbox)
         #vert_layout.addLayout(layout)
 
@@ -529,15 +543,21 @@ class FormWidget(QMainWindow):
             sys.exit()
 
     def open_game(self, val):
-        global num_groups
-        global num_novels
 
-        num_groups = int(self.add1.text())
-        num_laureates = int(self.add2.text())
-        #print(num_groups, num_laureates)
-        self.win = FormWidget()
+        global input_groups
+        print(input_groups)
+        self.win = FormWidget2()
         self.win.show()
         self.close()
+
+    def fillDomain(self, i, j):
+        global input_groups
+
+        if i + 1 in input_groups:
+            input_groups[i + 1].append(j + 1)
+        else:
+            input_groups[i + 1] = [j + 1]
+
 
     def center(self):
 
