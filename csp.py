@@ -19,6 +19,9 @@ import time
 # Predefined CSP Problem
 number_nodes = 0
 default_m = 20
+
+num_groups = 0
+num_novels = 0
 default_groups = {'G1': [3, 5, 8, 9, 12, 18, 19],
                 'G2': [8, 9, 12, 19, 2],
                 'G3': [3, 5, 4, 16, 8, 9, 19],
@@ -379,6 +382,171 @@ class InputWidget(QMainWindow):
         qr.moveCenter(cp)
         self.move(qr.topLeft())
 
+
+class AskWidget(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle(f"Inputs")
+        window = QWidget()
+
+        self.normal_button = QPushButton()
+        #self.normal_button.setFixedSize(QSize(200, 100))
+        self.normal_button.setText("Start Taking Input")
+        self.normal_button.pressed.connect(partial(self.open_game, 1))
+
+
+
+        self.label1 = QLabel()
+        #self.label1.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        font = self.label1.font()
+        font.setPointSize(20)
+        font.setWeight(65)
+        self.label1.setFont(font)
+        self.label1.setText("INPUT: \n")
+
+        self.add1 = QLineEdit()
+        self.add2 = QLineEdit()
+        fbox = QFormLayout()
+        fbox.addRow(QLabel("Number of groups"), self.add1)
+        fbox.addRow(QLabel("Number of Laureates"), self.add2)
+        fbox.addRow(self.normal_button)
+
+        #layout =QHBoxLayout()
+        #layout.addWidget(self.normal_button)
+        #layout.addWidget(self.ab_button)
+
+        vert_layout = QVBoxLayout()
+        #vert_layout.addWidget(self.label1)
+        vert_layout.addLayout(fbox)
+        #vert_layout.addLayout(layout)
+
+        window.setLayout(vert_layout)
+        self.setCentralWidget(window)
+        #self.resize(400, 400)
+        self.center()
+    #self.get_num_groups()
+        #self.get_num_novels()
+        #self.showMaximized()
+        self.show()
+
+    def createWidgets(self):
+        self.formGroupBox = QGroupBox("Inputs")
+        layout = QFormLayout()
+        layout.addRow(QLabel("number groups"), QLineEdit())
+        layout.addRow(QLabel("number Laureates"), QLineEdit())
+        self.formGroupBox.setLayout(layout)
+
+    def get_num_novels(self):
+        global num_novels
+        num_novels, ok_pressed = QInputDialog.getInt(self, "Get Laureates", "Number of Laureates:", 1, 1, 15, 1)
+        if not ok_pressed:
+            sys.exit()
+
+    def get_num_groups(self):
+        global num_groups
+        num_groups, ok_pressed = QInputDialog.getInt(self, "Get Groups", "Number of Groups:", 1, 1, 25, 1)
+        if not ok_pressed:
+            sys.exit()
+
+    def open_game(self, val):
+        global num_groups
+        global num_novels
+
+        num_groups = int(self.add1.text())
+        num_laureates = int(self.add2.text())
+        #print(num_groups, num_laureates)
+        self.win = FormWidget()
+        self.win.show()
+        self.close()
+
+    def center(self):
+
+        qr = self.frameGeometry()
+        cp  = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
+
+
+class FormWidget(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle(f"INPUT")
+        window = QWidget()
+
+        self.normal_button = QPushButton()
+        #self.normal_button.setFixedSize(QSize(200, 100))
+        self.normal_button.setText("Start Taking Input")
+        self.normal_button.pressed.connect(partial(self.open_game, 1))
+
+
+        
+
+
+        self.add1 = QLineEdit()
+        self.add2 = QLineEdit()
+        fbox = QFormLayout()
+        fbox.addRow(QLabel("number groups"), self.add1)
+        fbox.addRow(QLabel("number Laureates"), self.add2)
+        fbox.addRow(self.normal_button)
+
+        #layout =QHBoxLayout()
+        #layout.addWidget(self.normal_button)
+        #layout.addWidget(self.ab_button)
+
+        vert_layout = QVBoxLayout()
+        vert_layout.addWidget(self.label1)
+        vert_layout.addLayout(fbox)
+        #vert_layout.addLayout(layout)
+
+        window.setLayout(vert_layout)
+        self.setCentralWidget(window)
+        #self.resize(400, 400)
+        self.center()
+    #self.get_num_groups()
+        #self.get_num_novels()
+        #self.showMaximized()
+        self.show()
+
+    def createWidgets(self):
+        self.formGroupBox = QGroupBox("Inputs")
+        layout = QFormLayout()
+        layout.addRow(QLabel("number groups"), QLineEdit())
+        layout.addRow(QLabel("number Laureates"), QLineEdit())
+        self.formGroupBox.setLayout(layout)
+
+    def get_num_novels(self):
+        global num_novels
+        num_novels, ok_pressed = QInputDialog.getInt(self, "Get Laureates", "Number of Laureates:", 1, 1, 15, 1)
+        if not ok_pressed:
+            sys.exit()
+
+    def get_num_groups(self):
+        global num_groups
+        num_groups, ok_pressed = QInputDialog.getInt(self, "Get Groups", "Number of Groups:", 1, 1, 25, 1)
+        if not ok_pressed:
+            sys.exit()
+
+    def open_game(self, val):
+        global num_groups
+        global num_novels
+
+        num_groups = int(self.add1.text())
+        num_laureates = int(self.add2.text())
+        #print(num_groups, num_laureates)
+        self.win = FormWidget()
+        self.win.show()
+        self.close()
+
+    def center(self):
+
+        qr = self.frameGeometry()
+        cp  = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
+
+
 class PrintWidget(QMainWindow):
 
     def __init__(self):
@@ -475,11 +643,12 @@ N19: [1, 3, 6, 8], \n N20: [6]")
         vert_layout.addWidget(self.label3)
         vert_layout.addWidget(self.label4)
         vert_layout.addLayout(layout)
-        self.showFullScreen()
+
         window.setLayout(vert_layout)
         self.setCentralWidget(window)
         #self.resize(600, 600)
-        self.center()
+        #self.center()
+        self.showMaximized()
         self.show()
 
     def open_game(self, val):
