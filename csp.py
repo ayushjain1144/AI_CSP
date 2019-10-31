@@ -11,6 +11,9 @@ from PyQt5.QtCore import *
 import sys
 from functools import partial
 import re
+from copy import deepcopy
+from collections import deque
+import time
 #######################################
 
 # Predefined CSP Problem
@@ -67,33 +70,10 @@ default_domains1 = {1: [2, 3],
 
 
 #########################################
-is_with_constraint_prop = 0
+is_with_constraint_prop = 1
 is_MRV = 0
-is_Degree = 1
-
-class CSP():
-
-    def __init__(self, variables, domains, neighbors, constraints):
-
-        self.variables = variables
-        self.domains = domains
-        self.neighbors = neighbors
-        self.constraints = constraints
-        self.initial = ()
-        self.current_domains = None
-        self.number_assigned = 0
-
-    def assign(self, var, val, assignment):
-        """Assign variable to value"""
-
-        assignment[var]  = val
-        self.number_assigned += 1
-
-    def unassign(self, var, val, assignment):
-        """Deletes val from var"""
-
-        if var in assignment:
-            del assignment[var]
+is_Degree = 0
+is_default_input = 1
 
 class MainWidget(QMainWindow):
 
@@ -117,16 +97,22 @@ class MainWidget(QMainWindow):
         print(self.adjacency_dict)
         #print(self.order_variable_list)
 
-        assignment = self.backtrack_search()
+
+
+        self.show()
+        assignment = self.backtrack_search(self.current_domains)
 
         if assignment == None:
             print("No assignment possible")
         else:
+            global number_nodes
+            print("Assignment Successful")
             print(assignment)
+        print(f"Total nodes produced: {number_nodes}")
         #print(self.mrv({10: 1, 20 : 2}))
         #print(self.ordered_variable_list)
 
-        #self.show()
+
 
     def center(self):
 
@@ -165,7 +151,7 @@ class MainWidget(QMainWindow):
 
 
     def constraint(self, A, a, B, b):
-        """If B is a neighbour of A and a = b, then they are involved in constraint"""
+        """If B is a neighbour of A and a = b, then they are voilatind constraint"""
         """a and b should be in respective domains"""
 
         try:
@@ -173,6 +159,8 @@ class MainWidget(QMainWindow):
             assert(b in default_domains[B])
         except Exception:
             print("Values out of domains")
+            print(default_domains)
+            print(A, a, B, b)
             print("Exiting")
             sys.exit()
         if self.is_neighbor(A, B) and a == b:
@@ -196,19 +184,19 @@ class MainWidget(QMainWindow):
         else:
             return False
 
-    def backtrack_search(self):
+    def backtrack_search(self, current_domains):
         """Implements backtrack search, returns assignment or None"""
-        return self.backtrack({})
+        return self.backtrack({}, current_domains)
 
-    def mrv(self, assignment):
+    def mrv(self, assignment, current_domains):
         """Returns the variable with minimum valid moves"""
 
         min = float('Inf')
         min_var = None
         for var in self.adjacency_dict:
             if var not in assignment:
-                if len(self.current_domains[var]) < min:
-                    min = len(self.current_domains[var])
+                if len(current_domains[var]) < min:
+                    min = len(current_domains[var])
                     min_var = var
         if min == 0:
             return None
@@ -231,11 +219,11 @@ class MainWidget(QMainWindow):
         return min_var
 
 
-    def order_variable_list(self, assignment):
+    def order_variable_list(self, assignment, current_domains):
         """Returns the next variable to be chosen"""
 
         if is_MRV:
-            return self.mrv(assignment)
+            return self.mrv(assignment, current_domains)
         elif is_Degree:
             return self.degree_heurestic(assignment)
         else:
@@ -251,56 +239,268 @@ class MainWidget(QMainWindow):
                 return False
         return True
 
+    def ac3(self, assignment, current_domains, var):
+        """Returns False if domain of some variable becomes empty"""
+
+        list = deque()
+
+        # Forms the initial queue of constraints to be mantained
+        for neighbor in self.adjacency_dict[var]:
+            if neighbor not in assignment:
+                list.append((var, neighbor))
+
+        while list:
+            (A, B) = list.popleft()
+
+            for  a in current_domains[A]:
+                flag = False
+                for b in current_domains[B]:
+                    if self.constraint(A, a, B, b) == False:
+                        flag = True
+                        break
+                if flag == False:
+                    current_domains[A].remove(a)
+                    if not current_domains[A]:
+                        return False
+
+                    for neighbor1 in self.adjacency_dict[A]:
+                        if neighbor1 not in assignment and neighbor1 != B:
+                            list.append((A, neighbor1))
+        return True
 
 
-    def backtrack(self, assignment):
+
+
+    def backtrack(self, assignment, current_domains):
+
+        current_domain_local = deepcopy(current_domains)
         if self.is_complete_assignmnet(assignment):
             return assignment
 
 
         number_assigned = len(assignment)
 
-        var = self.order_variable_list(assignment)
+        var = self.order_variable_list(assignment, current_domain_local)
 
         #print(f"{var} returned by order_variable_list")
         if var is None:
             return None
 
-        for value in self.current_domains[var]:
+        print(f"var = {var}")
+        for value in current_domain_local[var]:
 
             global number_nodes
             number_nodes += 1
             if number_nodes % 100 == 0:
                 print(assignment, number_nodes)
+                #time.sleep(2)
             #print(value)
             if self.is_consistent(assignment, var, value):
                 #print("Returned True")
                 assignment[var] = value
 
-            #if is_with_constraint_prop == 1:
-                #inference = self.ac3()
-                #if inference
-                result = self.backtrack(assignment)
-                if result != None:
-                    return result
+                if is_with_constraint_prop == 1:
+                    inference = self.ac3(assignment, current_domain_local, var)
+                    if inference == True:
+
+                        result = self.backtrack(assignment, current_domain_local)
+
+                        if result != None:
+                            return result
+                else:
+                    result = self.backtrack(assignment, current_domain_local)
+
+                    if result != None:
+                        return result
+
+            #If the execution comes here, it means we failed somewhere, we need to restore
+            #undo assignment
             if var in assignment:
                 del assignment[var]
+            #restore domain
+            current_domain_local = deepcopy(current_domains)
         #print(assignment)
         return None
 
+class InputWidget(QMainWindow):
 
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle(f"AI Game")
+        window = QWidget()
+
+        self.normal_button = QPushButton()
+        self.normal_button.setFixedSize(QSize(200, 100))
+        self.normal_button.setText("Yes")
+        self.normal_button.pressed.connect(partial(self.open_game, 1))
+
+        self.ab_button = QPushButton()
+        self.ab_button.setFixedSize(QSize(200, 100))
+        self.ab_button.setText("No")
+        self.ab_button.pressed.connect(partial(self.open_game, 0))
+        self.label = QLabel()
+        self.label.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+
+        self.label.setText("Do you want to use default inputs?")
+        font = self.label.font()
+        font.setPointSize(20)
+        font.setWeight(65)
+        self.label.setFont(font)
+
+        layout =QHBoxLayout()
+        layout.addWidget(self.normal_button)
+        layout.addWidget(self.ab_button)
+
+        vert_layout = QVBoxLayout()
+        vert_layout.addWidget(self.label)
+        vert_layout.addLayout(layout)
+
+        window.setLayout(vert_layout)
+        self.setCentralWidget(window)
+        self.resize(600, 600)
+        self.center()
+        self.show()
+
+    def open_game(self, val):
+
+        global is_default_input
+        is_default_input = val
+        if is_default_input:
+            self.win = PrintWidget()
+        else:
+            self.win = AskWidget()
+        self.win.show()
+        self.close()
+
+    def center(self):
+
+        qr = self.frameGeometry()
+        cp  = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
+
+class PrintWidget(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle(f"AI Game")
+        window = QWidget()
+
+        self.normal_button = QPushButton()
+        self.normal_button.setFixedSize(QSize(200, 100))
+        self.normal_button.setText("Start Scheduling")
+        self.normal_button.pressed.connect(partial(self.open_game, 1))
+
+        self.label = QLabel()
+        self.label.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        font = self.label.font()
+        font.setPointSize(20)
+        font.setWeight(65)
+        self.label.setFont(font)
+        self.label.setText("The values\n\n")
+
+        self.label1 = QLabel()
+        #self.label1.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        font = self.label1.font()
+        font.setPointSize(20)
+        font.setWeight(65)
+        self.label1.setFont(font)
+        self.label1.setText("Groups: \n")
+
+        self.label2 = QLabel()
+        #self.label2.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        font = self.label2.font()
+        font.setPointSize(10)
+        self.label2.setFont(font)
+        self.label2.setText(" 'G1': [3, 5, 8, 9, 12, 18, 19] \n \
+'G2': [8, 9, 12, 19, 2], \n \
+'G3': [3, 5, 4, 16, 8, 9, 19], \n \
+'G4': [8, 9, 12, 15], \n \
+'G5': [15, 16, 17, 18, 19, 20], \n \
+'G6': [3, 5, 7, 11, 14, 20], \n \
+'G7': [3, 5, 12, 2, 18, 19, 20, 1], \n \
+'G8': [3, 5, 8, 9, 10, 18, 19, 20], \n \
+'G9': [3, 13, 8, 9, 7, 19, 20], \n \
+'G10': [1, 8, 9, 13, 20], \n \
+'G11': [18, 19, 20],\n \
+'G12': [3, 11, 8, 18, 19, 20], \n \
+'G13': [3, 8, 10, 12, 4, 20], \n \
+'G14': [3, 5, 11, 9, 10, 17, 19, 20], \n \
+'G15': [2, 8, 12, 18, 19, 20] \n\n")
+
+        self.label3 = QLabel()
+        #self.label3.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        font = self.label3.font()
+        font.setPointSize(20)
+        font.setWeight(65)
+        self.label3.setFont(font)
+        self.label3.setText("Domains: \n")
+
+        self.label4 = QLabel()
+        #self.label4.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        font = self.label4.font()
+        font.setPointSize(10)
+        self.label4.setFont(font)
+
+
+        self.label4.setText(" N1: [2, 5, 7],  \n \
+N2: [1, 4, 6, 2], \n \
+N3: [2, 5, 6, 1], \n \
+N4: [2, 4, 6, 8], \n \
+N5: [2, 6, 5], \n \
+N6: [1, 5, 3], \n \
+N7: [2, 4, 6, 1, 8], \n \
+N8: [1, 3, 4], \n \
+N9: [4, 1, 5, 8, 6], \n \
+N10: [8], \n \
+N11: [2, 3], \n \
+N12: [1, 2, 3, 4, 7], \n \
+N13: [7, 1, 8], \n \
+N14: [5, 3, 6, 1], \n \
+N15: [2, 5], \n \
+N16: [2, 5, 1, 4], \n \
+N17: [1, 4, 5, 6], \n \
+N18: [5, 4], \n \
+N19: [1, 3, 6, 8], \n N20: [6]")
+
+
+        layout =QHBoxLayout()
+        layout.addWidget(self.normal_button)
+        #layout.addWidget(self.ab_button)
+
+        vert_layout = QVBoxLayout()
+        vert_layout.addWidget(self.label)
+        vert_layout.addWidget(self.label1)
+        vert_layout.addWidget(self.label2)
+        vert_layout.addWidget(self.label3)
+        vert_layout.addWidget(self.label4)
+        vert_layout.addLayout(layout)
+        self.showFullScreen()
+        window.setLayout(vert_layout)
+        self.setCentralWidget(window)
+        #self.resize(600, 600)
+        self.center()
+        self.show()
+
+    def open_game(self, val):
+
+        self.win = FirstWidget()
+        self.win.show()
+        self.close()
+
+    def center(self):
+
+        qr = self.frameGeometry()
+        cp  = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
 
 class FirstWidget(QMainWindow):
 
     def __init__(self):
         super().__init__()
-
-
         self.setWindowTitle(f"AI Game")
         window = QWidget()
-
-
-
 
         self.normal_button = QPushButton()
         self.normal_button.setFixedSize(QSize(200, 100))
@@ -388,6 +588,7 @@ class SecondWidget(QMainWindow):
         vert_layout.addLayout(layout)
 
         window.setLayout(vert_layout)
+
         self.setCentralWidget(window)
         self.resize(600, 600)
         self.center()
@@ -412,5 +613,5 @@ class SecondWidget(QMainWindow):
 
 
 app = QApplication(sys.argv)
-ex = MainWidget()
+ex = InputWidget()
 sys.exit(app.exec_())
