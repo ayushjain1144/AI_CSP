@@ -669,21 +669,11 @@ class PrintWidget1(QMainWindow):
         font = self.label2.font()
         font.setPointSize(10)
         self.label2.setFont(font)
-        self.label2.setText(" 'G1': [3, 5, 8, 9, 12, 18, 19] \n \
-'G2': [8, 9, 12, 19, 2], \n \
-'G3': [3, 5, 4, 16, 8, 9, 19], \n \
-'G4': [8, 9, 12, 15], \n \
-'G5': [15, 16, 17, 18, 19, 20], \n \
-'G6': [3, 5, 7, 11, 14, 20], \n \
-'G7': [3, 5, 12, 2, 18, 19, 20, 1], \n \
-'G8': [3, 5, 8, 9, 10, 18, 19, 20], \n \
-'G9': [3, 13, 8, 9, 7, 19, 20], \n \
-'G10': [1, 8, 9, 13, 20], \n \
-'G11': [18, 19, 20],\n \
-'G12': [3, 11, 8, 18, 19, 20], \n \
-'G13': [3, 8, 10, 12, 4, 20], \n \
-'G14': [3, 5, 11, 9, 10, 17, 19, 20], \n \
-'G15': [2, 8, 12, 18, 19, 20] \n\n")
+        group_string = ""
+
+        for i in input_groups:
+            group_string = group_string + 'G' + str(i) + ' : ' + str(input_groups[i]) + '\n'
+        self.label2.setText(group_string + '\n')
 
         self.label3 = QLabel()
         #self.label3.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
@@ -699,26 +689,14 @@ class PrintWidget1(QMainWindow):
         font.setPointSize(10)
         self.label4.setFont(font)
 
+        novel_string = ""
 
-        self.label4.setText(" N1: [2, 5, 7],  \n \
-N2: [1, 4, 6, 2], \n \
-N3: [2, 5, 6, 1], \n \
-N4: [2, 4, 6, 8], \n \
-N5: [2, 6, 5], \n \
-N6: [1, 5, 3], \n \
-N7: [2, 4, 6, 1, 8], \n \
-N8: [1, 3, 4], \n \
-N9: [4, 1, 5, 8, 6], \n \
-N10: [8], \n \
-N11: [2, 3], \n \
-N12: [1, 2, 3, 4, 7], \n \
-N13: [7, 1, 8], \n \
-N14: [5, 3, 6, 1], \n \
-N15: [2, 5], \n \
-N16: [2, 5, 1, 4], \n \
-N17: [1, 4, 5, 6], \n \
-N18: [5, 4], \n \
-N19: [1, 3, 6, 8], \n N20: [6]")
+        for i in input_domains:
+            novel_string = novel_string + 'N' + str(i) + ' : ' + str(input_domains[i]) + '\n'
+        self.label2.setText(novel_string + '\n')
+
+
+        self.label4.setText(novel_string)
 
 
         layout =QHBoxLayout()
@@ -933,9 +911,6 @@ class SecondWidget(QMainWindow):
         self.setWindowTitle(f"AI Game")
         window = QWidget()
 
-
-
-
         self.normal_button = QPushButton()
         self.normal_button.setFixedSize(QSize(100, 100))
         self.normal_button.setText("Degree")
@@ -972,7 +947,15 @@ class SecondWidget(QMainWindow):
     def open_game(self, val):
 
         global is_MRV
-        is_MRV = val
+        global is_Degree
+
+        if val == 0:
+            is_Degree = 1
+            is_MRV = 0
+        else:
+            is_Degree = 0
+            is_MRV = 1
+        #is_MRV = val
         self.win = MainWidget()
         self.win.show()
         self.close()
