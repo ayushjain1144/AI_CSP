@@ -117,7 +117,26 @@ class MainWidget(QMainWindow):
         print(f"current_domains: {self.current_domains}")
         print(f"adjacency_dict: {self.adjacency_dict}")
         #print(self.order_variable_list)
+######################################################################################################################################################################
+        self.label1 = QLabel()
+        #self.label1.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        txt_string = ""
+        #if is_MRV == 1:
 
+        self.label1.setText(f"")
+        font = self.label1.font()
+        font.setPointSize(20)
+        font.setWeight(65)
+        self.label1.setFont(font)
+
+        self.label = QLabel()
+        self.label.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+
+        self.label.setText("Partial Assignment")
+        font = self.label.font()
+        font.setPointSize(20)
+        font.setWeight(65)
+        self.label.setFont(font)
 
 
         self.show()
@@ -169,6 +188,7 @@ class MainWidget(QMainWindow):
             adjacency_dict[var + 1] = neighbors
         #print(adjacency_dict)
         return adjacency_dict
+
 
     def is_neighbor(self, A, B):
         """Returns true if A and B are neighbors"""
@@ -935,6 +955,65 @@ class FirstWidget(QMainWindow):
         self.move(qr.topLeft())
 
 class SecondWidget(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+
+
+        self.setWindowTitle(f"AI Game")
+        window = QWidget()
+
+        self.normal_button = QPushButton()
+        self.normal_button.setFixedSize(QSize(100, 100))
+        self.normal_button.setText("Yes")
+        self.normal_button.pressed.connect(partial(self.open_game, 1))
+
+        self.ab_button = QPushButton()
+        self.ab_button.setFixedSize(QSize(100, 100))
+        self.ab_button.setText("No")
+        self.ab_button.pressed.connect(partial(self.open_game, 0))
+        self.label = QLabel()
+        self.label.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+
+        self.label.setText("Do you want to use heurestic ?")
+        font = self.label.font()
+        font.setPointSize(20)
+        font.setWeight(65)
+        self.label.setFont(font)
+
+        layout =QHBoxLayout()
+        layout.addWidget(self.normal_button)
+        layout.addWidget(self.ab_button)
+
+        vert_layout = QVBoxLayout()
+        vert_layout.addWidget(self.label)
+        vert_layout.addLayout(layout)
+
+        window.setLayout(vert_layout)
+
+        self.setCentralWidget(window)
+        self.resize(600, 600)
+        self.center()
+        self.show()
+
+    def open_game(self, val):
+
+        if val == 0:
+            self.win = MainWidget()
+        else:
+            self.win = ThirdWidget()
+
+        self.win.show()
+        self.close()
+
+    def center(self):
+
+        qr = self.frameGeometry()
+        cp  = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
+
+class ThirdWidget(QMainWindow):
 
     def __init__(self):
         super().__init__()
