@@ -26,6 +26,9 @@ limit = 0
 
 input_groups = {}
 input_domains = {}
+
+partial_assignment = {}
+
 default_groups = {'G1': [3, 5, 8, 9, 12, 18, 19],
                 'G2': [8, 9, 12, 19, 2],
                 'G3': [3, 5, 4, 16, 8, 9, 19],
@@ -81,6 +84,8 @@ is_with_constraint_prop = 1
 is_MRV = 0
 is_Degree = 0
 is_default_input = 1
+
+file = open('partial_assignments.txt', 'a')
 
 class MainWidget(QMainWindow):
 
@@ -138,20 +143,56 @@ class MainWidget(QMainWindow):
         font.setWeight(65)
         self.label.setFont(font)
 
+        self.tableWidget = QTableWidget()
+        self.tableWidget.setRowCount(2)
+        self.tableWidget.setColumnCount(default_m)
+
+        self.populateTable(self.assignment)
+
+        layout = QVBoxLayout()
+
+        layout.addWidget(self.label)
+        layout.addWidget(self.tableWidget)
+        window.setLayout(layout)
+        self.setCentralWidget(window)
 
         self.show()
         assignment = self.backtrack_search(self.current_domains)
 
         if assignment == None:
+            self.label.setText("Assignment not possible")
+            global partial_assignment
             print("No assignment possible")
+            print(partial_assignment)
+            #self.populateTable(partial_assignment)
+
         else:
+            self.label.setText("Assignment Successful")
             global number_nodes
             print("Assignment Successful")
             print(assignment)
+            self.populateTable(assignment)
+        #file.close()
         print(f"Total nodes produced: {number_nodes}")
         #print(self.mrv({10: 1, 20 : 2}))
         #print(self.ordered_variable_list)
 
+
+    def populateTable(self, assignment):
+
+        for i, (k, v) in enumerate(assignment.items()):
+            print(i, k, v)
+            self.tableWidget.setItem(0, i, QTableWidgetItem("N" + str(k)))
+            self.tableWidget.setItem(1, i, QTableWidgetItem(str(v)))
+
+        global default_m
+        j = len(assignment)
+        num_unassigned = default_m - j
+
+        for num in range(num_unassigned):
+            self.tableWidget.setItem(0, j + num - 1, QTableWidgetItem(""))
+            self.tableWidget.setItem(1, j + num - 1, QTableWidgetItem(""))
+        self.update()
 
 
     def center(self):
@@ -340,14 +381,19 @@ class MainWidget(QMainWindow):
         if var is None:
             return None
 
-        print(f"var = {var}")
+        #print(f"var = {var}")
         for value in current_domain_local[var]:
 
             global number_nodes
             number_nodes += 1
             if number_nodes % 100 == 0:
                 print(assignment, number_nodes)
-                #time.sleep(2)
+                file.write(f"Number of nodes: {number_nodes}:\tpartial assignment: {assignment}\n")
+                self.populateTable(assignment)
+                loop = QEventLoop()
+                QTimer.singleShot(2000, loop.quit)
+                loop.exec_()
+                #time.sleep(1)
             #print(value)
             if self.is_consistent(assignment, var, value):
                 #print("Returned True")
@@ -374,6 +420,8 @@ class MainWidget(QMainWindow):
             #restore domain
             current_domain_local = deepcopy(current_domains)
         #print(assignment)
+        global partial_assignment
+        partial_assignment = assignment
         return None
 
 class InputWidget(QMainWindow):
