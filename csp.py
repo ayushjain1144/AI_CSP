@@ -84,6 +84,7 @@ is_with_constraint_prop = 1
 is_MRV = 0
 is_Degree = 0
 is_default_input = 1
+delay_time = 0
 
 file = open('partial_assignments.txt', 'a')
 
@@ -98,6 +99,7 @@ class MainWidget(QMainWindow):
         self.setCentralWidget(window)
         self.resize(1800, 950)
         self.center()
+        self.get_time()
 
         if not is_default_input:
             global default_m
@@ -125,10 +127,20 @@ class MainWidget(QMainWindow):
 ######################################################################################################################################################################
         self.label1 = QLabel()
         #self.label1.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
-        txt_string = ""
-        #if is_MRV == 1:
+        txt_string = "Algorithm used: "
+        if is_with_constraint_prop:
+            txt_string = txt_string + "DFS + Backtracking + AC3\n"
+        else:
+            txt_string = txt_string + "DFS + Backtracking, without AC3\n"
 
-        self.label1.setText(f"")
+        if is_MRV:
+            txt_string = txt_string + "Heurestic: MRV"
+        elif is_Degree:
+            txt_string = txt_string + "Heurestic: Degree"
+        else:
+            txt_string = txt_string + "No Heurestic"
+
+        self.label1.setText(txt_string)
         font = self.label1.font()
         font.setPointSize(20)
         font.setWeight(65)
@@ -149,15 +161,25 @@ class MainWidget(QMainWindow):
 
         self.populateTable(self.assignment)
 
+        self.normal_button = QPushButton()
+        self.normal_button.setFixedSize(QSize(200, 100))
+        self.normal_button.setText("See STATISTICS")
+        self.normal_button.pressed.connect(partial(self.open_game, 1))
+
         layout = QVBoxLayout()
 
         layout.addWidget(self.label)
         layout.addWidget(self.tableWidget)
+        layout.addWidget(self.label1)
+        layout.addWidget(self.normal_button)
         window.setLayout(layout)
         self.setCentralWidget(window)
 
         self.show()
+
+        start_time = time.time()
         assignment = self.backtrack_search(self.current_domains)
+        print(f"TIME OUTPUT: {time.time() - start_time}")
 
         if assignment == None:
             self.label.setText("Assignment not possible")
@@ -176,6 +198,17 @@ class MainWidget(QMainWindow):
         print(f"Total nodes produced: {number_nodes}")
         #print(self.mrv({10: 1, 20 : 2}))
         #print(self.ordered_variable_list)
+    def get_time(self):
+        global delay_time
+        delay_time, ok_pressed = QInputDialog.getInt(self, "Get Delay Time", "Number of Seconds for delay:", 0, 0, 5, 0.5)
+        if not ok_pressed:
+            sys.exit()
+
+    def open_game(self, val):
+
+        self.win = StatisticsWidget()
+        self.win.show()
+        self.close()
 
 
     def populateTable(self, assignment):
@@ -390,9 +423,11 @@ class MainWidget(QMainWindow):
                 print(assignment, number_nodes)
                 file.write(f"Number of nodes: {number_nodes}:\tpartial assignment: {assignment}\n")
                 self.populateTable(assignment)
+                global delay_time
                 loop = QEventLoop()
-                QTimer.singleShot(2000, loop.quit)
+                QTimer.singleShot(delay_time * 1000, loop.quit)
                 loop.exec_()
+
                 #time.sleep(1)
             #print(value)
             if self.is_consistent(assignment, var, value):
@@ -423,6 +458,104 @@ class MainWidget(QMainWindow):
         global partial_assignment
         partial_assignment = assignment
         return None
+
+
+class StatisticsWidget(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+
+
+        self.setWindowTitle(f"STATISTICS")
+        window = QWidget()
+
+        layout = QHBoxLayout()
+
+        left = QVBoxLayout()
+        right = QVBoxLayout()
+
+        lb1_R1 = QLabel(self)
+        lb1_R2 = QLabel(self)
+        lb1_R3 = QLabel(self)
+        lb1_R4 = QLabel(self)
+        lb1_R5 = QLabel(self)
+        lb1_R6 = QLabel(self)
+        lb1_R7 = QLabel(self)
+        lb1_R8 = QLabel(self)
+        lbl_R9 = QLabel(self)
+
+
+        lb1_R1.setText(f"R1: 53270")
+        lb1_R2.setText(f"R2: 248 bytes")
+        lb1_R3.setText(f"R3: 3968 bytes")
+        lb1_R4.setText(f"R4: 2.484 sec")
+        lb1_R5.setText(f"R5: Degree: 313; MRV: 2312")
+        lb1_R6.setText(f"R6: 13658")
+        lb1_R7.setText(f"R7: 0.743")
+        lb1_R8.setText(f"R8: 1.53 sec")
+        lbl_R9.setText(f"Comparitive Analysis: AC3 is 39% faster")
+
+
+
+
+        lb1_R1.setAlignment(Qt.AlignLeft)
+        lb1_R2.setAlignment(Qt.AlignLeft)
+        lb1_R3.setAlignment(Qt.AlignLeft)
+        lb1_R4.setAlignment(Qt.AlignLeft)
+        lb1_R5.setAlignment(Qt.AlignLeft)
+        lb1_R6.setAlignment(Qt.AlignLeft)
+        lb1_R7.setAlignment(Qt.AlignLeft)
+        lb1_R8.setAlignment(Qt.AlignLeft)
+        lbl_R9.setAlignment(Qt.AlignLeft)
+
+
+
+
+        left.addWidget(lb1_R1)
+
+
+        left.addWidget(lb1_R2)
+        left.addWidget(lb1_R3)
+        left.addWidget(lb1_R4)
+
+
+        right.addWidget(lb1_R5)
+        right.addWidget(lb1_R6)
+        right.addWidget(lb1_R7)
+        right.addWidget(lb1_R8)
+        right.addWidget(lbl_R9)
+
+
+        self.normal_button = QPushButton()
+        self.normal_button.setFixedSize(QSize(100, 100))
+        self.normal_button.setText("Continue")
+        self.normal_button.pressed.connect(self.open_game)
+
+        right.addWidget(self.normal_button)
+
+        layout.addLayout(left)
+        layout.addLayout(right)
+
+        window.setLayout(layout)
+        self.setCentralWidget(window)
+        self.resize(360, 360)
+        self.center()
+        self.show()
+
+
+    def open_game(self):
+
+        self.win = InputWidget()
+        self.win.show()
+        self.close()
+
+
+    def center(self):
+
+        qr = self.frameGeometry()
+        cp  = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
 
 class InputWidget(QMainWindow):
 

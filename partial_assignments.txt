@@ -1115,3 +1115,1021 @@ Number of nodes: 15500:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 6, 5: 2, 6: 1,
 Number of nodes: 15600:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 6, 5: 2, 6: 3, 7: 4, 8: 3}
 Number of nodes: 15700:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 2, 6: 1, 7: 1, 8: 3}
 Number of nodes: 15800:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 2, 6: 3}
+Number of nodes: 100:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 3}
+Number of nodes: 200:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1, 15: 5, 16: 1}
+Number of nodes: 300:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 5, 16: 1}
+Number of nodes: 400:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1, 15: 2}
+Number of nodes: 500:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3}
+Number of nodes: 600:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1, 15: 2}
+Number of nodes: 700:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 4, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 800:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 8, 5: 6, 6: 1, 7: 1, 8: 4}
+Number of nodes: 900:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 8, 5: 6, 6: 3, 7: 4}
+Number of nodes: 1000:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 1100:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 3, 15: 2, 16: 1}
+Number of nodes: 1200:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 1300:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1}
+Number of nodes: 1400:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 1500:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 5}
+Number of nodes: 1600:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3}
+Number of nodes: 1700:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 8, 5: 5, 6: 1, 7: 2, 8: 3}
+Number of nodes: 1800:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 8, 5: 5, 6: 5, 7: 8, 8: 4}
+Number of nodes: 1900:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 2000:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 3}
+Number of nodes: 2100:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 1}
+Number of nodes: 2200:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 2300:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3, 7: 4}
+Number of nodes: 2400:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3}
+Number of nodes: 2500:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 4}
+Number of nodes: 2600:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 1}
+Number of nodes: 2700:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 2800:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5}
+Number of nodes: 2900:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 3000:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 8, 8: 3}
+Number of nodes: 3100:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 8, 5: 6, 6: 1, 7: 1}
+Number of nodes: 3200:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 8, 5: 6, 6: 3, 7: 4, 8: 3}
+Number of nodes: 3300:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2, 16: 4}
+Number of nodes: 3400:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 4}
+Number of nodes: 3500:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2}
+Number of nodes: 3600:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 4}
+Number of nodes: 3700:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 3800:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 3900:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 2}
+Number of nodes: 4000:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 4100:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2}
+Number of nodes: 4200:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 2}
+Number of nodes: 4300:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 5, 16: 2}
+Number of nodes: 4400:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2}
+Number of nodes: 4500:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 8, 5: 5, 6: 5, 7: 4, 8: 1}
+Number of nodes: 4600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 1, 7: 2}
+Number of nodes: 4700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 1, 7: 8, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 7, 14: 5, 15: 2}
+Number of nodes: 4800:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2, 16: 4}
+Number of nodes: 4900:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 3, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 4}
+Number of nodes: 5000:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1, 7: 4}
+Number of nodes: 5100:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1}
+Number of nodes: 5200:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2}
+Number of nodes: 5300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3}
+Number of nodes: 5400:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 5500:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 5600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 1, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3}
+Number of nodes: 5700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 8, 14: 5, 15: 2}
+Number of nodes: 5800:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7}
+Number of nodes: 5900:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3}
+Number of nodes: 6000:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 6100:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 5}
+Number of nodes: 6200:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 5, 16: 2}
+Number of nodes: 6300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 8, 14: 6, 15: 2}
+Number of nodes: 6400:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 6, 5: 5, 6: 1, 7: 4}
+Number of nodes: 6500:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 6, 5: 5, 6: 3, 7: 6}
+Number of nodes: 6600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 8, 5: 6, 6: 3, 7: 4}
+Number of nodes: 6700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 8, 5: 5, 6: 3, 7: 2, 8: 3}
+Number of nodes: 6800:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 1, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2}
+Number of nodes: 6900:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 5, 7: 2}
+Number of nodes: 7000:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 7100:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 3, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 5}
+Number of nodes: 7200:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 4, 5: 5, 6: 1, 7: 6, 8: 3}
+Number of nodes: 7300:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 1, 7: 2}
+Number of nodes: 7400:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 1, 7: 8, 8: 3, 9: 4}
+Number of nodes: 7500:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 5, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 7600:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 5}
+Number of nodes: 7700:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 3, 7: 6, 8: 3, 9: 4, 10: 8}
+Number of nodes: 7800:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 8, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 7900:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 8, 5: 5, 6: 3, 7: 2, 8: 3}
+Number of nodes: 8000:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 4, 5: 6, 6: 5}
+Number of nodes: 8100:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 8, 5: 6, 6: 1, 7: 8, 8: 4}
+Number of nodes: 8200:	partial assignment: {1: 5, 2: 1, 3: 6, 4: 4, 5: 2, 6: 1, 7: 4, 8: 3}
+Number of nodes: 8300:	partial assignment: {1: 5, 2: 1, 3: 6, 4: 8, 5: 2, 6: 1, 7: 4, 8: 3}
+Number of nodes: 8400:	partial assignment: {1: 5, 2: 1, 3: 6, 4: 8, 5: 2, 6: 3, 7: 1}
+Number of nodes: 8500:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 4, 5: 6, 6: 5}
+Number of nodes: 8600:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 8, 5: 6, 6: 1, 7: 4, 8: 3}
+Number of nodes: 8700:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 8, 5: 6, 6: 3, 7: 8, 8: 1}
+Number of nodes: 8800:	partial assignment: {1: 5, 2: 4, 3: 6, 4: 4, 5: 2, 6: 5, 7: 1}
+Number of nodes: 8900:	partial assignment: {1: 5, 2: 4, 3: 6, 4: 8, 5: 2, 6: 1, 7: 8}
+Number of nodes: 9000:	partial assignment: {1: 5, 2: 4}
+Number of nodes: 9100:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 2}
+Number of nodes: 9200:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 4, 5: 2, 6: 3, 7: 6, 8: 3}
+Number of nodes: 9300:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 8}
+Number of nodes: 9400:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 6, 5: 2, 6: 3, 7: 6, 8: 3, 9: 8}
+Number of nodes: 9500:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 8, 5: 2, 6: 3, 7: 6, 8: 3}
+Number of nodes: 9600:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 8, 5: 6, 6: 3, 7: 8, 8: 3}
+Number of nodes: 9700:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 4, 5: 2, 6: 3, 7: 4, 8: 3}
+Number of nodes: 9800:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 6, 5: 2, 6: 5, 7: 6, 8: 3, 9: 8}
+Number of nodes: 9900:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 8, 5: 2, 6: 1, 7: 6}
+Number of nodes: 10000:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 8, 5: 2, 6: 3, 7: 8}
+Number of nodes: 10100:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 10200:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 10300:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 4, 5: 6}
+Number of nodes: 10400:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 6}
+Number of nodes: 10500:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 8, 5: 6, 6: 3, 7: 2, 8: 4}
+Number of nodes: 10600:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 10700:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 5, 6: 1}
+Number of nodes: 10800:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 5, 6: 3}
+Number of nodes: 10900:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 6, 5: 5, 6: 5, 7: 6, 8: 3, 9: 4, 10: 8}
+Number of nodes: 11000:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 6, 5: 5, 6: 3}
+Number of nodes: 11100:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 11200:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 5, 6: 1, 7: 1, 8: 4}
+Number of nodes: 11300:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 5, 6: 3, 7: 6, 8: 3, 9: 4}
+Number of nodes: 11400:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 4}
+Number of nodes: 11500:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 4}
+Number of nodes: 11600:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 4, 5: 2, 6: 1, 7: 6}
+Number of nodes: 11700:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 4, 5: 2, 6: 3, 7: 6}
+Number of nodes: 11800:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 4, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 11900:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 6, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 12000:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 6, 5: 2, 6: 3, 7: 4, 8: 3}
+Number of nodes: 12100:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 12200:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 2, 6: 3, 7: 6}
+Number of nodes: 12300:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 6, 6: 1, 7: 8, 8: 4}
+Number of nodes: 12400:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 6, 6: 3, 7: 1, 8: 4}
+Number of nodes: 12500:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 2, 5: 5}
+Number of nodes: 12600:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3}
+Number of nodes: 12700:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 4, 5: 2, 6: 5, 7: 4}
+Number of nodes: 12800:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 12900:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3}
+Number of nodes: 13000:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 8, 5: 2, 6: 5, 7: 8, 8: 4}
+Number of nodes: 13100:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 8, 5: 5, 6: 1, 7: 8}
+Number of nodes: 13200:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 8, 5: 5, 6: 3, 7: 1, 8: 4}
+Number of nodes: 13300:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 6, 6: 1, 7: 8, 8: 1, 9: 5, 10: 8, 11: 3}
+Number of nodes: 13400:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 6, 6: 5, 7: 8, 8: 1, 9: 5, 10: 8, 11: 3}
+Number of nodes: 13500:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 6, 6: 3, 7: 8}
+Number of nodes: 13600:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 1, 7: 1, 8: 3}
+Number of nodes: 13700:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 5, 7: 6, 8: 1}
+Number of nodes: 13800:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 3, 7: 4, 8: 1, 9: 6, 10: 8, 11: 3, 12: 3, 13: 8, 14: 1, 15: 5}
+Number of nodes: 13900:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 6, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 14000:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 6, 5: 5, 6: 5, 7: 1}
+Number of nodes: 14100:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 6, 6: 1, 7: 4, 8: 3}
+Number of nodes: 14200:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 6, 6: 3, 7: 4}
+Number of nodes: 14300:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 5, 6: 5, 7: 4, 8: 1, 9: 6}
+Number of nodes: 14400:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 5, 6: 3, 7: 8, 8: 1}
+Number of nodes: 14500:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 2, 8: 1}
+Number of nodes: 14600:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3, 7: 4, 8: 3}
+Number of nodes: 14700:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8}
+Number of nodes: 14800:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 5, 7: 4, 8: 1, 9: 6, 10: 8, 11: 3, 12: 3, 13: 8, 14: 6}
+Number of nodes: 14900:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 3, 7: 4, 8: 1}
+Number of nodes: 15000:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 3, 7: 8, 8: 1, 9: 6, 10: 8, 11: 3, 12: 3}
+Number of nodes: 15100:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 1, 8: 3}
+Number of nodes: 15200:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 15300:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 2, 13: 8, 14: 1, 15: 5, 16: 2, 17: 4}
+Number of nodes: 15400:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 6, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 15500:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 6, 5: 2, 6: 3, 7: 4, 8: 3}
+Number of nodes: 15600:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 15700:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 2, 6: 3}
+Number of nodes: 15800:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 6, 6: 5}
+Number of nodes: 15900:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 6, 6: 3, 7: 8, 8: 1}
+Number of nodes: 16000:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 2, 8: 1}
+Number of nodes: 16100:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3}
+Number of nodes: 16200:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 2, 6: 1, 7: 4}
+Number of nodes: 16300:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 2, 6: 5, 7: 1}
+Number of nodes: 16400:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 2, 6: 3, 7: 1, 8: 3, 9: 5}
+Number of nodes: 16500:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 2, 13: 8, 14: 1, 15: 5, 16: 2, 17: 4}
+Number of nodes: 16600:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 2, 13: 8, 14: 3, 15: 5}
+Number of nodes: 16700:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 2, 13: 8}
+Number of nodes: 16800:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 8, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 16900:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 8, 5: 2, 6: 3}
+Number of nodes: 17000:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 8, 5: 5, 6: 5, 7: 4, 8: 3}
+Number of nodes: 17100:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 2, 5: 6, 6: 1, 7: 2, 8: 3, 9: 5, 10: 8}
+Number of nodes: 17200:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 2, 5: 6, 6: 3, 7: 2, 8: 3, 9: 5}
+Number of nodes: 17300:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2}
+Number of nodes: 17400:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 6, 8: 3}
+Number of nodes: 17500:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 2, 6: 5, 7: 6, 8: 3, 9: 5, 10: 8}
+Number of nodes: 17600:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 6, 6: 1, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 2, 13: 8, 14: 3}
+Number of nodes: 17700:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 6, 6: 3}
+Number of nodes: 17800:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 2, 13: 8, 14: 3, 15: 5, 16: 2}
+Number of nodes: 17900:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 2, 13: 8, 14: 3, 15: 5}
+Number of nodes: 18000:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 2, 13: 8, 14: 6, 15: 5}
+Number of nodes: 18100:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 6, 5: 2, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8}
+Number of nodes: 18200:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 6, 5: 5, 6: 1, 7: 6, 8: 3}
+Number of nodes: 18300:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 8, 5: 2, 6: 1}
+Number of nodes: 18400:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 8, 5: 2, 6: 3, 7: 8, 8: 3}
+Number of nodes: 18500:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 8, 5: 6, 6: 3, 7: 8, 8: 3, 9: 5}
+Number of nodes: 18600:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 8, 5: 5, 6: 3, 7: 4}
+Number of nodes: 18700:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3}
+Number of nodes: 18800:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 4, 5: 5, 6: 3, 7: 6, 8: 3}
+Number of nodes: 18900:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 1, 7: 6, 8: 3, 9: 1}
+Number of nodes: 19000:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 1, 7: 8, 8: 4, 9: 1, 10: 8, 11: 3}
+Number of nodes: 19100:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 5, 7: 6, 8: 4}
+Number of nodes: 19200:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 3, 7: 6, 8: 1, 9: 4, 10: 8, 11: 3, 12: 3}
+Number of nodes: 19300:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 3, 7: 8, 8: 1, 9: 4, 10: 8, 11: 3}
+Number of nodes: 19400:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 8, 5: 5, 6: 1, 7: 8, 8: 1}
+Number of nodes: 19500:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 8, 5: 5, 6: 3, 7: 4, 8: 1}
+Number of nodes: 19600:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 4, 5: 2, 6: 1, 7: 4}
+Number of nodes: 19700:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 4, 5: 2, 6: 5, 7: 8, 8: 1}
+Number of nodes: 19800:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8}
+Number of nodes: 19900:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 1, 7: 1, 8: 4}
+Number of nodes: 20000:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 5, 7: 6, 8: 1}
+Number of nodes: 20100:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 5, 7: 8, 8: 4}
+Number of nodes: 20200:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 3, 7: 6, 8: 4, 9: 1, 10: 8, 11: 3, 12: 3, 13: 8, 14: 1, 15: 2}
+Number of nodes: 20300:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 8, 5: 2, 6: 1, 7: 4}
+Number of nodes: 20400:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 8, 5: 2, 6: 5, 7: 6, 8: 4}
+Number of nodes: 20500:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 8, 5: 2, 6: 3, 7: 8, 8: 1}
+Number of nodes: 20600:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 2, 5: 5, 6: 1, 7: 8, 8: 4}
+Number of nodes: 20700:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 2, 5: 5, 6: 3}
+Number of nodes: 20800:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 4, 5: 2}
+Number of nodes: 20900:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 21000:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 4, 5: 5, 6: 3, 7: 8}
+Number of nodes: 21100:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 2, 6: 5}
+Number of nodes: 21200:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 2, 6: 3, 7: 4, 8: 3}
+Number of nodes: 21300:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 5, 6: 1, 7: 2, 8: 4}
+Number of nodes: 21400:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 5, 6: 5}
+Number of nodes: 21500:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 5, 6: 3, 7: 4}
+Number of nodes: 21600:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 8, 5: 2, 6: 1, 7: 6, 8: 3}
+Number of nodes: 21700:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 8, 5: 2, 6: 3, 7: 6, 8: 4, 9: 5}
+Number of nodes: 21800:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 8, 5: 5, 6: 5, 7: 4, 8: 3}
+Number of nodes: 21900:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 1, 7: 2, 8: 1}
+Number of nodes: 22000:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 4, 13: 8, 14: 3, 15: 2}
+Number of nodes: 22100:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8, 8: 1, 9: 4, 10: 8, 11: 2}
+Number of nodes: 22200:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8, 8: 4, 9: 1, 10: 8}
+Number of nodes: 22300:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 22400:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 22500:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 22600:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 3, 7: 2, 8: 4, 9: 1, 10: 8, 11: 3}
+Number of nodes: 22700:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 3, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 1, 13: 8, 14: 3, 15: 5, 16: 1}
+Number of nodes: 22800:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2}
+Number of nodes: 22900:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 4, 5: 6, 6: 1, 7: 1}
+Number of nodes: 23000:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 4, 5: 6}
+Number of nodes: 23100:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 8, 5: 6, 6: 1, 7: 2, 8: 3}
+Number of nodes: 23200:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 8, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 23300:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 8, 5: 6, 6: 3, 7: 8, 8: 1}
+Number of nodes: 23400:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 1, 7: 2, 8: 4}
+Number of nodes: 23500:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 1, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 1, 13: 8, 14: 3, 15: 5, 16: 1}
+Number of nodes: 23600:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3}
+Number of nodes: 23700:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 5, 7: 2, 8: 4, 9: 1, 10: 8, 11: 3, 12: 3, 13: 8}
+Number of nodes: 23800:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 1, 13: 8, 14: 3, 15: 2}
+Number of nodes: 23900:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 1, 13: 1, 14: 1}
+Number of nodes: 24000:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 3, 7: 2, 8: 3, 9: 8}
+Number of nodes: 24100:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4}
+Number of nodes: 24200:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 1, 13: 1, 14: 3, 15: 5, 16: 1}
+Number of nodes: 24300:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4, 8: 1, 9: 8}
+Number of nodes: 24400:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 4, 5: 5, 6: 5, 7: 1, 8: 3}
+Number of nodes: 24500:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8}
+Number of nodes: 24600:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 8, 5: 5, 6: 5, 7: 2, 8: 3}
+Number of nodes: 24700:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 8, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1}
+Number of nodes: 24800:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2}
+Number of nodes: 24900:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 2, 5: 6, 6: 5, 7: 2, 8: 3}
+Number of nodes: 25000:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3, 9: 5, 10: 8, 11: 2}
+Number of nodes: 25100:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 2, 5: 6, 6: 3, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 4, 13: 8, 14: 5, 15: 2, 16: 4}
+Number of nodes: 25200:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 2, 5: 5, 6: 1, 7: 2, 8: 4}
+Number of nodes: 25300:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 2, 5: 5, 6: 1, 7: 6, 8: 3}
+Number of nodes: 25400:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 2, 5: 5, 6: 5, 7: 2, 8: 4, 9: 6, 10: 8, 11: 3, 12: 3, 13: 8, 14: 6, 15: 2}
+Number of nodes: 25500:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 2, 5: 5, 6: 5, 7: 8}
+Number of nodes: 25600:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 2, 5: 5, 6: 3, 7: 4}
+Number of nodes: 25700:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 6}
+Number of nodes: 25800:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 4, 5: 6, 6: 5, 7: 2, 8: 3}
+Number of nodes: 25900:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 4, 5: 5, 6: 1, 7: 2, 8: 3}
+Number of nodes: 26000:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 4, 5: 5, 6: 5, 7: 8, 8: 3}
+Number of nodes: 26100:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 6, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 26200:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 6, 5: 5, 6: 5, 7: 6, 8: 3}
+Number of nodes: 26300:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 6, 5: 5, 6: 3, 7: 8, 8: 3}
+Number of nodes: 26400:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 8, 5: 6, 6: 5, 7: 8, 8: 4}
+Number of nodes: 26500:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 8, 5: 5, 6: 1, 7: 8, 8: 3}
+Number of nodes: 26600:	partial assignment: {1: 7, 2: 2, 3: 1, 4: 8, 5: 5, 6: 3, 7: 4, 8: 3}
+Number of nodes: 26700:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 26800:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 3}
+Number of nodes: 26900:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 1}
+Number of nodes: 27000:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 5, 16: 1}
+Number of nodes: 27100:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 27200:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2, 16: 1}
+Number of nodes: 27300:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 4, 5: 6, 6: 1}
+Number of nodes: 27400:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 8, 5: 6, 6: 1}
+Number of nodes: 27500:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 8, 5: 6, 6: 5, 7: 8, 8: 3, 9: 4}
+Number of nodes: 27600:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 4, 8: 3, 9: 8}
+Number of nodes: 27700:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 27800:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5}
+Number of nodes: 27900:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 1}
+Number of nodes: 28000:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 2}
+Number of nodes: 28100:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7}
+Number of nodes: 28200:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 4, 5: 5, 6: 1, 7: 2}
+Number of nodes: 28300:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 4, 5: 5, 6: 3, 7: 4}
+Number of nodes: 28400:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 8, 5: 5, 6: 5, 7: 4}
+Number of nodes: 28500:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2}
+Number of nodes: 28600:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 5, 16: 4}
+Number of nodes: 28700:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8, 8: 3}
+Number of nodes: 28800:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 5}
+Number of nodes: 28900:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7}
+Number of nodes: 29000:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 5}
+Number of nodes: 29100:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 5, 16: 4}
+Number of nodes: 29200:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 5, 16: 2}
+Number of nodes: 29300:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 8, 8: 3, 9: 1, 10: 8}
+Number of nodes: 29400:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 8}
+Number of nodes: 29500:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 2, 8: 1}
+Number of nodes: 29600:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 8, 14: 1, 15: 5, 16: 2}
+Number of nodes: 29700:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 8, 5: 6, 6: 1, 7: 2, 8: 1}
+Number of nodes: 29800:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 8, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 29900:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1}
+Number of nodes: 30000:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 1, 8: 3}
+Number of nodes: 30100:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 4}
+Number of nodes: 30200:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5}
+Number of nodes: 30300:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4, 8: 1}
+Number of nodes: 30400:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3}
+Number of nodes: 30500:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 2, 8: 3}
+Number of nodes: 30600:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4}
+Number of nodes: 30700:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 4, 8: 1}
+Number of nodes: 30800:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 1, 8: 3, 9: 8}
+Number of nodes: 30900:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 31000:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 8, 8: 1}
+Number of nodes: 31100:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 8, 5: 5, 6: 1, 7: 1}
+Number of nodes: 31200:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 8, 5: 5, 6: 3, 7: 4, 8: 3}
+Number of nodes: 31300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2}
+Number of nodes: 31400:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 31500:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 3, 7: 2, 8: 3}
+Number of nodes: 31600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 31700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2, 16: 4}
+Number of nodes: 31800:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 5, 16: 4}
+Number of nodes: 31900:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 8, 14: 6}
+Number of nodes: 32000:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 2, 8: 3, 9: 8}
+Number of nodes: 32100:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 8, 14: 6, 15: 5, 16: 4}
+Number of nodes: 32200:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 1, 7: 4, 8: 3}
+Number of nodes: 32300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 5}
+Number of nodes: 32400:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 3, 7: 2, 8: 3, 9: 5, 10: 8}
+Number of nodes: 32500:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 2}
+Number of nodes: 32600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 8, 14: 6, 15: 5}
+Number of nodes: 32700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2}
+Number of nodes: 32800:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2}
+Number of nodes: 32900:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6}
+Number of nodes: 33000:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 2}
+Number of nodes: 33100:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 6, 5: 5, 6: 5, 7: 8, 8: 3}
+Number of nodes: 33200:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 8, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 33300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 8, 5: 5, 6: 5, 7: 2}
+Number of nodes: 33400:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 1, 7: 2}
+Number of nodes: 33500:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 33600:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 5, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 5}
+Number of nodes: 33700:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 3, 7: 6, 8: 3}
+Number of nodes: 33800:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 3, 7: 8, 8: 4}
+Number of nodes: 33900:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 4, 5: 5, 6: 3, 7: 4}
+Number of nodes: 34000:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 1, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2}
+Number of nodes: 34100:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 5, 7: 2, 8: 3}
+Number of nodes: 34200:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2}
+Number of nodes: 34300:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 3, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3}
+Number of nodes: 34400:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 3, 7: 8, 8: 3}
+Number of nodes: 34500:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 8, 5: 5, 6: 5, 7: 6, 8: 3}
+Number of nodes: 34600:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 4, 5: 6, 6: 1, 7: 4, 8: 3}
+Number of nodes: 34700:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 8, 5: 6, 6: 1, 7: 4, 8: 3}
+Number of nodes: 34800:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 8, 5: 6, 6: 3, 7: 1, 8: 4}
+Number of nodes: 34900:	partial assignment: {1: 5, 2: 1, 3: 6, 4: 4, 5: 2, 6: 3, 7: 4, 8: 3}
+Number of nodes: 35000:	partial assignment: {1: 5, 2: 1, 3: 6, 4: 8, 5: 2, 6: 5, 7: 8}
+Number of nodes: 35100:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 4, 5: 6, 6: 1, 7: 8, 8: 1}
+Number of nodes: 35200:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 4, 5: 6, 6: 3, 7: 8, 8: 1}
+Number of nodes: 35300:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 8, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 35400:	partial assignment: {1: 5, 2: 4, 3: 6, 4: 4, 5: 2, 6: 1, 7: 8, 8: 3}
+Number of nodes: 35500:	partial assignment: {1: 5, 2: 4, 3: 6, 4: 4, 5: 2, 6: 3, 7: 8, 8: 3}
+Number of nodes: 35600:	partial assignment: {1: 5, 2: 4, 3: 6, 4: 8, 5: 2, 6: 3, 7: 4}
+Number of nodes: 35700:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 35800:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 4, 5: 2, 6: 5, 7: 6}
+Number of nodes: 35900:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 36000:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 6, 5: 2, 6: 5, 7: 6, 8: 3}
+Number of nodes: 36100:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 8, 5: 2, 6: 5, 7: 6, 8: 3}
+Number of nodes: 36200:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 8, 5: 6, 6: 5}
+Number of nodes: 36300:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 4, 5: 2, 6: 5, 7: 4}
+Number of nodes: 36400:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 6, 5: 2, 6: 1, 7: 8, 8: 3, 9: 4}
+Number of nodes: 36500:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 6, 5: 2, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8}
+Number of nodes: 36600:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 8, 5: 2, 6: 3}
+Number of nodes: 36700:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 1, 7: 8, 8: 3, 9: 4}
+Number of nodes: 36800:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 5, 15: 2}
+Number of nodes: 36900:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 5, 15: 5}
+Number of nodes: 37000:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 4, 5: 6, 6: 3}
+Number of nodes: 37100:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 8, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 37200:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 6, 6: 1, 7: 1, 8: 3}
+Number of nodes: 37300:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 5, 6: 1, 7: 4}
+Number of nodes: 37400:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 5, 6: 3, 7: 4}
+Number of nodes: 37500:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 6, 5: 5, 6: 1, 7: 1, 8: 4}
+Number of nodes: 37600:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 6, 5: 5, 6: 3, 7: 6, 8: 3}
+Number of nodes: 37700:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 6, 6: 1, 7: 8, 8: 4}
+Number of nodes: 37800:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 5, 6: 1, 7: 4}
+Number of nodes: 37900:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 5, 6: 5, 7: 1, 8: 4}
+Number of nodes: 38000:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 2, 8: 4}
+Number of nodes: 38100:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2}
+Number of nodes: 38200:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2}
+Number of nodes: 38300:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 4, 5: 2, 6: 5, 7: 1, 8: 3, 9: 8}
+Number of nodes: 38400:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 4, 5: 6, 6: 1, 7: 1}
+Number of nodes: 38500:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 6, 5: 2, 6: 1, 7: 4, 8: 3}
+Number of nodes: 38600:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 6, 5: 2, 6: 5, 7: 1, 8: 3}
+Number of nodes: 38700:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 2}
+Number of nodes: 38800:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 2, 6: 5, 7: 1, 8: 4}
+Number of nodes: 38900:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 6, 6: 1}
+Number of nodes: 39000:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 6, 6: 3, 7: 2, 8: 3}
+Number of nodes: 39100:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 1, 8: 3, 9: 4, 10: 8}
+Number of nodes: 39200:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2}
+Number of nodes: 39300:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 4, 5: 2, 6: 1, 7: 4, 8: 3, 9: 5, 10: 8}
+Number of nodes: 39400:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 4, 5: 2, 6: 3, 7: 1, 8: 3}
+Number of nodes: 39500:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 4, 5: 5, 6: 3, 7: 2}
+Number of nodes: 39600:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 8, 5: 2, 6: 5, 7: 4}
+Number of nodes: 39700:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 8, 5: 5, 6: 1, 7: 2, 8: 4}
+Number of nodes: 39800:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 8, 5: 5, 6: 3, 7: 2}
+Number of nodes: 39900:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1}
+Number of nodes: 40000:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3, 9: 5}
+Number of nodes: 40100:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 8}
+Number of nodes: 40200:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 40300:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 5, 7: 4, 8: 1, 9: 6, 10: 8, 11: 3, 12: 3, 13: 8, 14: 6, 15: 5}
+Number of nodes: 40400:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 3, 7: 4, 8: 1}
+Number of nodes: 40500:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 3, 7: 8, 8: 1, 9: 6, 10: 8, 11: 3}
+Number of nodes: 40600:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 6, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8}
+Number of nodes: 40700:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 6, 5: 5, 6: 3, 7: 1, 8: 3, 9: 8}
+Number of nodes: 40800:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 6, 6: 5}
+Number of nodes: 40900:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 5, 6: 1, 7: 1}
+Number of nodes: 41000:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1}
+Number of nodes: 41100:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 3}
+Number of nodes: 41200:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 41300:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 1, 7: 4, 8: 1, 9: 6, 10: 8, 11: 3}
+Number of nodes: 41400:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 1, 7: 8, 8: 3, 9: 1, 10: 8}
+Number of nodes: 41500:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 5, 7: 8}
+Number of nodes: 41600:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 3, 7: 6, 8: 3, 9: 1}
+Number of nodes: 41700:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 2, 13: 8, 14: 3, 15: 5, 16: 2}
+Number of nodes: 41800:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 2}
+Number of nodes: 41900:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 4, 8: 1}
+Number of nodes: 42000:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 6, 5: 2, 6: 1, 7: 4, 8: 3}
+Number of nodes: 42100:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 6, 5: 2, 6: 5, 7: 1, 8: 3}
+Number of nodes: 42200:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 2, 6: 1, 7: 4, 8: 1}
+Number of nodes: 42300:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 2, 6: 5, 7: 8}
+Number of nodes: 42400:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 6, 6: 1, 7: 4, 8: 1}
+Number of nodes: 42500:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 6, 6: 3, 7: 2, 8: 3}
+Number of nodes: 42600:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 1, 8: 3}
+Number of nodes: 42700:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 42800:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 2, 6: 1, 7: 4, 8: 1, 9: 5, 10: 8, 11: 3, 12: 3}
+Number of nodes: 42900:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 2, 6: 5, 7: 4, 8: 1, 9: 5, 10: 8, 11: 3, 12: 3, 13: 8, 14: 5, 15: 2}
+Number of nodes: 43000:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 2, 6: 3, 7: 4, 8: 1, 9: 5, 10: 8, 11: 3, 12: 3, 13: 8}
+Number of nodes: 43100:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4, 8: 1}
+Number of nodes: 43200:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 2, 8: 3, 9: 1, 10: 8}
+Number of nodes: 43300:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 2, 8: 1}
+Number of nodes: 43400:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 43500:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 8, 5: 2, 6: 5, 7: 8, 8: 3}
+Number of nodes: 43600:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 8, 5: 5, 6: 1, 7: 8, 8: 1}
+Number of nodes: 43700:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 8, 5: 5, 6: 3, 7: 1}
+Number of nodes: 43800:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2}
+Number of nodes: 43900:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 44000:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 2, 5: 5}
+Number of nodes: 44100:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 2, 6: 1, 7: 8, 8: 3, 9: 5}
+Number of nodes: 44200:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 2, 6: 3, 7: 8, 8: 3, 9: 6, 10: 8}
+Number of nodes: 44300:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 2, 13: 8, 14: 3}
+Number of nodes: 44400:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 5}
+Number of nodes: 44500:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 2, 8: 3}
+Number of nodes: 44600:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 5, 6: 3, 7: 2, 8: 3, 9: 6, 10: 8}
+Number of nodes: 44700:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 6, 5: 2, 6: 1, 7: 6}
+Number of nodes: 44800:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 6, 5: 2, 6: 3, 7: 8, 8: 3}
+Number of nodes: 44900:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 6, 5: 5, 6: 3, 7: 2, 8: 3}
+Number of nodes: 45000:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 8, 5: 2, 6: 5, 7: 8, 8: 3}
+Number of nodes: 45100:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 8, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 45200:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 8, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6}
+Number of nodes: 45300:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 4, 5: 5, 6: 1, 7: 6, 8: 3}
+Number of nodes: 45400:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 4, 5: 5, 6: 5, 7: 8, 8: 3}
+Number of nodes: 45500:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 1, 7: 6, 8: 1, 9: 4, 10: 8}
+Number of nodes: 45600:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 1, 7: 8, 8: 1, 9: 4, 10: 8, 11: 3}
+Number of nodes: 45700:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 5, 7: 6, 8: 3, 9: 1}
+Number of nodes: 45800:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 5, 7: 8, 8: 4, 9: 1, 10: 8, 11: 3}
+Number of nodes: 45900:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 3, 7: 6, 8: 4}
+Number of nodes: 46000:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 8, 5: 5, 6: 1, 7: 6, 8: 3}
+Number of nodes: 46100:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 8, 5: 5, 6: 5, 7: 1, 8: 3}
+Number of nodes: 46200:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 8, 5: 5, 6: 3, 7: 8, 8: 3}
+Number of nodes: 46300:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 4, 5: 2, 6: 5, 7: 4, 8: 3, 9: 8}
+Number of nodes: 46400:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 4, 5: 2, 6: 3, 7: 8}
+Number of nodes: 46500:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 1, 7: 6, 8: 4, 9: 1, 10: 8, 11: 3, 12: 3, 13: 8}
+Number of nodes: 46600:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8}
+Number of nodes: 46700:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 5, 7: 1, 8: 4}
+Number of nodes: 46800:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 3, 7: 6, 8: 1}
+Number of nodes: 46900:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 3, 7: 8, 8: 4}
+Number of nodes: 47000:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 8, 5: 2, 6: 5, 7: 4}
+Number of nodes: 47100:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 8, 5: 2, 6: 3, 7: 6}
+Number of nodes: 47200:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 2, 5: 5, 6: 1, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2}
+Number of nodes: 47300:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2}
+Number of nodes: 47400:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 4, 5: 2, 6: 1, 7: 4, 8: 3}
+Number of nodes: 47500:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 4, 5: 2, 6: 3, 7: 6, 8: 3}
+Number of nodes: 47600:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 4, 5: 5, 6: 5, 7: 8}
+Number of nodes: 47700:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 2, 6: 1, 7: 6, 8: 4, 9: 8}
+Number of nodes: 47800:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 2, 6: 5, 7: 8, 8: 3}
+Number of nodes: 47900:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 2, 6: 3, 7: 8, 8: 4}
+Number of nodes: 100:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 4}
+Number of nodes: 200:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8}
+Number of nodes: 300:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 1, 8: 4}
+Number of nodes: 400:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 4}
+Number of nodes: 500:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8}
+Number of nodes: 600:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8, 8: 4}
+Number of nodes: 700:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3}
+Number of nodes: 800:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2}
+Number of nodes: 900:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1}
+Number of nodes: 1000:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2, 16: 1}
+Number of nodes: 1100:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1}
+Number of nodes: 1200:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2, 16: 1}
+Number of nodes: 1300:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1, 15: 2}
+Number of nodes: 1400:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 4, 5: 5, 6: 5, 7: 1}
+Number of nodes: 1500:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 1600:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8, 8: 1}
+Number of nodes: 1700:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3}
+Number of nodes: 1800:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 1}
+Number of nodes: 1900:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 2000:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8, 8: 1}
+Number of nodes: 2100:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 2200:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 8, 8: 1}
+Number of nodes: 2300:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 2400:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 2500:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 2}
+Number of nodes: 2600:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 2700:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 4}
+Number of nodes: 2800:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3}
+Number of nodes: 2900:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 4}
+Number of nodes: 3000:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 3100:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 3200:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 3300:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 3400:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 3500:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 3600:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 2}
+Number of nodes: 3700:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 5, 16: 2}
+Number of nodes: 3800:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1}
+Number of nodes: 3900:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2, 16: 4}
+Number of nodes: 4000:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 4}
+Number of nodes: 4100:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 3, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2}
+Number of nodes: 4200:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3}
+Number of nodes: 4300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 8, 14: 6, 15: 2}
+Number of nodes: 4400:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 5, 7: 4, 8: 3, 9: 8}
+Number of nodes: 4500:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3}
+Number of nodes: 4600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 4700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 4800:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 1}
+Number of nodes: 4900:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 5}
+Number of nodes: 5000:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 3, 7: 4}
+Number of nodes: 5100:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 5, 16: 2}
+Number of nodes: 5200:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3, 9: 6, 10: 8}
+Number of nodes: 5300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 8, 14: 6, 15: 5, 16: 2, 17: 4}
+Number of nodes: 5400:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 5500:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 2}
+Number of nodes: 5600:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 4, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 5700:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 8, 5: 6, 6: 5, 7: 1, 8: 4}
+Number of nodes: 5800:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 4, 5: 6, 6: 1, 7: 8, 8: 1}
+Number of nodes: 5900:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 4, 5: 6, 6: 3, 7: 8, 8: 1}
+Number of nodes: 6000:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 8, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 6100:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 6200:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 4, 5: 2, 6: 5, 7: 4}
+Number of nodes: 6300:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3}
+Number of nodes: 6400:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7}
+Number of nodes: 6500:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 6600:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 4, 5: 6, 6: 3, 7: 2, 8: 3}
+Number of nodes: 6700:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 6, 6: 5}
+Number of nodes: 6800:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3, 9: 6}
+Number of nodes: 6900:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3, 9: 6}
+Number of nodes: 7000:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 6, 5: 5, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8}
+Number of nodes: 7100:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 6, 6: 1}
+Number of nodes: 7200:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 6, 6: 3, 7: 1, 8: 4}
+Number of nodes: 100:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 3}
+Number of nodes: 200:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1, 15: 5, 16: 1}
+Number of nodes: 300:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 5, 16: 1}
+Number of nodes: 400:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1, 15: 2}
+Number of nodes: 500:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3}
+Number of nodes: 600:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1, 15: 2}
+Number of nodes: 700:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 4, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 800:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 8, 5: 6, 6: 1, 7: 1, 8: 4}
+Number of nodes: 900:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 8, 5: 6, 6: 3, 7: 4}
+Number of nodes: 1000:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 1100:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 3, 15: 2, 16: 1}
+Number of nodes: 1200:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 1300:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1}
+Number of nodes: 1400:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 1500:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 5}
+Number of nodes: 1600:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3}
+Number of nodes: 1700:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 8, 5: 5, 6: 1, 7: 2, 8: 3}
+Number of nodes: 1800:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 8, 5: 5, 6: 5, 7: 8, 8: 4}
+Number of nodes: 1900:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 2000:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 3}
+Number of nodes: 2100:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 1}
+Number of nodes: 2200:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 2300:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3, 7: 4}
+Number of nodes: 2400:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3}
+Number of nodes: 2500:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 4}
+Number of nodes: 2600:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 1}
+Number of nodes: 2700:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 2800:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5}
+Number of nodes: 2900:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 3000:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 8, 8: 3}
+Number of nodes: 3100:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 8, 5: 6, 6: 1, 7: 1}
+Number of nodes: 3200:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 8, 5: 6, 6: 3, 7: 4, 8: 3}
+Number of nodes: 3300:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2, 16: 4}
+Number of nodes: 3400:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 4}
+Number of nodes: 3500:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2}
+Number of nodes: 3600:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 4}
+Number of nodes: 3700:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 3800:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 3900:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 2}
+Number of nodes: 4000:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 4100:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2}
+Number of nodes: 4200:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 2}
+Number of nodes: 4300:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 5, 16: 2}
+Number of nodes: 4400:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2}
+Number of nodes: 4500:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 8, 5: 5, 6: 5, 7: 4, 8: 1}
+Number of nodes: 4600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 1, 7: 2}
+Number of nodes: 4700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 1, 7: 8, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 7, 14: 5, 15: 2}
+Number of nodes: 4800:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2, 16: 4}
+Number of nodes: 4900:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 3, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 4}
+Number of nodes: 5000:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1, 7: 4}
+Number of nodes: 5100:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1}
+Number of nodes: 5200:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2}
+Number of nodes: 5300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3}
+Number of nodes: 5400:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 5500:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 5600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 1, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3}
+Number of nodes: 5700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 8, 14: 5, 15: 2}
+Number of nodes: 5800:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7}
+Number of nodes: 5900:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3}
+Number of nodes: 6000:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 6100:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 5}
+Number of nodes: 6200:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 5, 16: 2}
+Number of nodes: 6300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 8, 14: 6, 15: 2}
+Number of nodes: 6400:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 6, 5: 5, 6: 1, 7: 4}
+Number of nodes: 6500:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 6, 5: 5, 6: 3, 7: 6}
+Number of nodes: 6600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 8, 5: 6, 6: 3, 7: 4}
+Number of nodes: 6700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 8, 5: 5, 6: 3, 7: 2, 8: 3}
+Number of nodes: 6800:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 1, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2}
+Number of nodes: 6900:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 5, 7: 2}
+Number of nodes: 7000:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 7100:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 3, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 5}
+Number of nodes: 7200:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 4, 5: 5, 6: 1, 7: 6, 8: 3}
+Number of nodes: 7300:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 1, 7: 2}
+Number of nodes: 7400:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 1, 7: 8, 8: 3, 9: 4}
+Number of nodes: 7500:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 5, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 7600:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 5}
+Number of nodes: 7700:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 3, 7: 6, 8: 3, 9: 4, 10: 8}
+Number of nodes: 7800:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 8, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 7900:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 8, 5: 5, 6: 3, 7: 2, 8: 3}
+Number of nodes: 8000:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 4, 5: 6, 6: 5}
+Number of nodes: 8100:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 8, 5: 6, 6: 1, 7: 8, 8: 4}
+Number of nodes: 8200:	partial assignment: {1: 5, 2: 1, 3: 6, 4: 4, 5: 2, 6: 1, 7: 4, 8: 3}
+Number of nodes: 8300:	partial assignment: {1: 5, 2: 1, 3: 6, 4: 8, 5: 2, 6: 1, 7: 4, 8: 3}
+Number of nodes: 8400:	partial assignment: {1: 5, 2: 1, 3: 6, 4: 8, 5: 2, 6: 3, 7: 1}
+Number of nodes: 8500:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 4, 5: 6, 6: 5}
+Number of nodes: 8600:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 8, 5: 6, 6: 1, 7: 4, 8: 3}
+Number of nodes: 8700:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 8, 5: 6, 6: 3, 7: 8, 8: 1}
+Number of nodes: 8800:	partial assignment: {1: 5, 2: 4, 3: 6, 4: 4, 5: 2, 6: 5, 7: 1}
+Number of nodes: 8900:	partial assignment: {1: 5, 2: 4, 3: 6, 4: 8, 5: 2, 6: 1, 7: 8}
+Number of nodes: 9000:	partial assignment: {1: 5, 2: 4}
+Number of nodes: 9100:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 2}
+Number of nodes: 9200:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 4, 5: 2, 6: 3, 7: 6, 8: 3}
+Number of nodes: 9300:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 8}
+Number of nodes: 9400:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 6, 5: 2, 6: 3, 7: 6, 8: 3, 9: 8}
+Number of nodes: 9500:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 8, 5: 2, 6: 3, 7: 6, 8: 3}
+Number of nodes: 9600:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 8, 5: 6, 6: 3, 7: 8, 8: 3}
+Number of nodes: 9700:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 4, 5: 2, 6: 3, 7: 4, 8: 3}
+Number of nodes: 9800:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 6, 5: 2, 6: 5, 7: 6, 8: 3, 9: 8}
+Number of nodes: 9900:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 8, 5: 2, 6: 1, 7: 6}
+Number of nodes: 10000:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 8, 5: 2, 6: 3, 7: 8}
+Number of nodes: 10100:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 10200:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 10300:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 4, 5: 6}
+Number of nodes: 10400:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 6}
+Number of nodes: 10500:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 8, 5: 6, 6: 3, 7: 2, 8: 4}
+Number of nodes: 10600:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 10700:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 5, 6: 1}
+Number of nodes: 10800:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 5, 6: 3}
+Number of nodes: 10900:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 6, 5: 5, 6: 5, 7: 6, 8: 3, 9: 4, 10: 8}
+Number of nodes: 11000:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 6, 5: 5, 6: 3}
+Number of nodes: 11100:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 11200:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 5, 6: 1, 7: 1, 8: 4}
+Number of nodes: 11300:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 5, 6: 3, 7: 6, 8: 3, 9: 4}
+Number of nodes: 11400:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 4}
+Number of nodes: 11500:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 4}
+Number of nodes: 11600:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 4, 5: 2, 6: 1, 7: 6}
+Number of nodes: 11700:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 4, 5: 2, 6: 3, 7: 6}
+Number of nodes: 11800:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 4, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 11900:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 6, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 12000:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 6, 5: 2, 6: 3, 7: 4, 8: 3}
+Number of nodes: 12100:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 12200:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 2, 6: 3, 7: 6}
+Number of nodes: 12300:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 6, 6: 1, 7: 8, 8: 4}
+Number of nodes: 12400:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 6, 6: 3, 7: 1, 8: 4}
+Number of nodes: 12500:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 2, 5: 5}
+Number of nodes: 12600:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3}
+Number of nodes: 12700:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 4, 5: 2, 6: 5, 7: 4}
+Number of nodes: 12800:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 12900:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3}
+Number of nodes: 13000:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 8, 5: 2, 6: 5, 7: 8, 8: 4}
+Number of nodes: 13100:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 8, 5: 5, 6: 1, 7: 8}
+Number of nodes: 13200:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 8, 5: 5, 6: 3, 7: 1, 8: 4}
+Number of nodes: 13300:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 6, 6: 1, 7: 8, 8: 1, 9: 5, 10: 8, 11: 3}
+Number of nodes: 13400:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 6, 6: 5, 7: 8, 8: 1, 9: 5, 10: 8, 11: 3}
+Number of nodes: 13500:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 6, 6: 3, 7: 8}
+Number of nodes: 13600:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 1, 7: 1, 8: 3}
+Number of nodes: 13700:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 5, 7: 6, 8: 1}
+Number of nodes: 13800:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 3, 7: 4, 8: 1, 9: 6, 10: 8, 11: 3, 12: 3, 13: 8, 14: 1, 15: 5}
+Number of nodes: 13900:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 6, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 14000:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 6, 5: 5, 6: 5, 7: 1}
+Number of nodes: 14100:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 6, 6: 1, 7: 4, 8: 3}
+Number of nodes: 14200:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 6, 6: 3, 7: 4}
+Number of nodes: 14300:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 5, 6: 5, 7: 4, 8: 1, 9: 6}
+Number of nodes: 14400:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 5, 6: 3, 7: 8, 8: 1}
+Number of nodes: 14500:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 2, 8: 1}
+Number of nodes: 14600:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3, 7: 4, 8: 3}
+Number of nodes: 14700:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8}
+Number of nodes: 14800:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 5, 7: 4, 8: 1, 9: 6, 10: 8, 11: 3, 12: 3, 13: 8, 14: 6}
+Number of nodes: 14900:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 3, 7: 4, 8: 1}
+Number of nodes: 15000:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 3, 7: 8, 8: 1, 9: 6, 10: 8, 11: 3, 12: 3}
+Number of nodes: 15100:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 1, 8: 3}
+Number of nodes: 15200:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 15300:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 2, 13: 8, 14: 1, 15: 5, 16: 2, 17: 4}
+Number of nodes: 15400:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 6, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 15500:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 6, 5: 2, 6: 3, 7: 4, 8: 3}
+Number of nodes: 15600:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 15700:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 2, 6: 3}
+Number of nodes: 15800:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 6, 6: 5}
+Number of nodes: 15900:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 6, 6: 3, 7: 8, 8: 1}
+Number of nodes: 16000:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 2, 8: 1}
+Number of nodes: 16100:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3}
+Number of nodes: 16200:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 2, 6: 1, 7: 4}
+Number of nodes: 16300:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 2, 6: 5, 7: 1}
+Number of nodes: 16400:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 2, 6: 3, 7: 1, 8: 3, 9: 5}
+Number of nodes: 16500:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 2, 13: 8, 14: 1, 15: 5, 16: 2, 17: 4}
+Number of nodes: 16600:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 2, 13: 8, 14: 3, 15: 5}
+Number of nodes: 16700:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 2, 13: 8}
+Number of nodes: 16800:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 8, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 16900:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 8, 5: 2, 6: 3}
+Number of nodes: 17000:	partial assignment: {1: 7, 2: 4, 3: 6, 4: 8, 5: 5, 6: 5, 7: 4, 8: 3}
+Number of nodes: 17100:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 2, 5: 6, 6: 1, 7: 2, 8: 3, 9: 5, 10: 8}
+Number of nodes: 17200:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 2, 5: 6, 6: 3, 7: 2, 8: 3, 9: 5}
+Number of nodes: 17300:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2}
+Number of nodes: 17400:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 6, 8: 3}
+Number of nodes: 17500:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 2, 6: 5, 7: 6, 8: 3, 9: 5, 10: 8}
+Number of nodes: 17600:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 6, 6: 1, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 2, 13: 8, 14: 3}
+Number of nodes: 17700:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 6, 6: 3}
+Number of nodes: 17800:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 2, 13: 8, 14: 3, 15: 5, 16: 2}
+Number of nodes: 17900:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 2, 13: 8, 14: 3, 15: 5}
+Number of nodes: 18000:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 2, 13: 8, 14: 6, 15: 5}
+Number of nodes: 18100:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 6, 5: 2, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8}
+Number of nodes: 18200:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 6, 5: 5, 6: 1, 7: 6, 8: 3}
+Number of nodes: 18300:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 8, 5: 2, 6: 1}
+Number of nodes: 18400:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 8, 5: 2, 6: 3, 7: 8, 8: 3}
+Number of nodes: 18500:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 8, 5: 6, 6: 3, 7: 8, 8: 3, 9: 5}
+Number of nodes: 18600:	partial assignment: {1: 7, 2: 4, 3: 1, 4: 8, 5: 5, 6: 3, 7: 4}
+Number of nodes: 18700:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3}
+Number of nodes: 18800:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 4, 5: 5, 6: 3, 7: 6, 8: 3}
+Number of nodes: 18900:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 1, 7: 6, 8: 3, 9: 1}
+Number of nodes: 19000:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 1, 7: 8, 8: 4, 9: 1, 10: 8, 11: 3}
+Number of nodes: 19100:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 5, 7: 6, 8: 4}
+Number of nodes: 19200:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 3, 7: 6, 8: 1, 9: 4, 10: 8, 11: 3, 12: 3}
+Number of nodes: 19300:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 6, 5: 5, 6: 3, 7: 8, 8: 1, 9: 4, 10: 8, 11: 3}
+Number of nodes: 19400:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 8, 5: 5, 6: 1, 7: 8, 8: 1}
+Number of nodes: 19500:	partial assignment: {1: 7, 2: 6, 3: 2, 4: 8, 5: 5, 6: 3, 7: 4, 8: 1}
+Number of nodes: 19600:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 4, 5: 2, 6: 1, 7: 4}
+Number of nodes: 19700:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 4, 5: 2, 6: 5, 7: 8, 8: 1}
+Number of nodes: 19800:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8}
+Number of nodes: 19900:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 1, 7: 1, 8: 4}
+Number of nodes: 20000:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 5, 7: 6, 8: 1}
+Number of nodes: 20100:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 5, 7: 8, 8: 4}
+Number of nodes: 20200:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 6, 5: 2, 6: 3, 7: 6, 8: 4, 9: 1, 10: 8, 11: 3, 12: 3, 13: 8, 14: 1, 15: 2}
+Number of nodes: 20300:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 8, 5: 2, 6: 1, 7: 4}
+Number of nodes: 20400:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 8, 5: 2, 6: 5, 7: 6, 8: 4}
+Number of nodes: 20500:	partial assignment: {1: 7, 2: 6, 3: 5, 4: 8, 5: 2, 6: 3, 7: 8, 8: 1}
+Number of nodes: 20600:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 2, 5: 5, 6: 1, 7: 8, 8: 4}
+Number of nodes: 20700:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 2, 5: 5, 6: 3}
+Number of nodes: 20800:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 4, 5: 2}
+Number of nodes: 20900:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 21000:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 4, 5: 5, 6: 3, 7: 8}
+Number of nodes: 21100:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 2, 6: 5}
+Number of nodes: 21200:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 2, 6: 3, 7: 4, 8: 3}
+Number of nodes: 21300:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 5, 6: 1, 7: 2, 8: 4}
+Number of nodes: 21400:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 5, 6: 5}
+Number of nodes: 21500:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 6, 5: 5, 6: 3, 7: 4}
+Number of nodes: 21600:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 8, 5: 2, 6: 1, 7: 6, 8: 3}
+Number of nodes: 21700:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 8, 5: 2, 6: 3, 7: 6, 8: 4, 9: 5}
+Number of nodes: 21800:	partial assignment: {1: 7, 2: 6, 3: 1, 4: 8, 5: 5, 6: 5, 7: 4, 8: 3}
+Number of nodes: 21900:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 1, 7: 2, 8: 1}
+Number of nodes: 22000:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 4, 13: 8, 14: 3, 15: 2}
+Number of nodes: 22100:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8, 8: 1, 9: 4, 10: 8, 11: 2}
+Number of nodes: 22200:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8, 8: 4, 9: 1, 10: 8}
+Number of nodes: 22300:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 22400:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 22500:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 22600:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 3, 7: 2, 8: 4, 9: 1, 10: 8, 11: 3}
+Number of nodes: 22700:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 3, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 1, 13: 8, 14: 3, 15: 5, 16: 1}
+Number of nodes: 22800:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2}
+Number of nodes: 22900:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 4, 5: 6, 6: 1, 7: 1}
+Number of nodes: 23000:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 4, 5: 6}
+Number of nodes: 23100:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 8, 5: 6, 6: 1, 7: 2, 8: 3}
+Number of nodes: 23200:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 8, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 23300:	partial assignment: {1: 7, 2: 2, 3: 5, 4: 8, 5: 6, 6: 3, 7: 8, 8: 1}
+Number of nodes: 23400:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 1, 7: 2, 8: 4}
+Number of nodes: 23500:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 1, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 1, 13: 8, 14: 3, 15: 5, 16: 1}
+Number of nodes: 23600:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3}
+Number of nodes: 23700:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 5, 7: 2, 8: 4, 9: 1, 10: 8, 11: 3, 12: 3, 13: 8}
+Number of nodes: 23800:	partial assignment: {1: 7, 2: 2, 3: 6, 4: 2, 5: 5, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 1, 13: 8, 14: 3, 15: 2}
+Number of nodes: 100:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 3}
+Number of nodes: 200:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1, 15: 5, 16: 1}
+Number of nodes: 300:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 5, 16: 1}
+Number of nodes: 400:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1, 15: 2}
+Number of nodes: 500:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3}
+Number of nodes: 600:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1, 15: 2}
+Number of nodes: 700:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 4, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 800:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 8, 5: 6, 6: 1, 7: 1, 8: 4}
+Number of nodes: 900:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 8, 5: 6, 6: 3, 7: 4}
+Number of nodes: 1000:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 1100:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 3, 15: 2, 16: 1}
+Number of nodes: 1200:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 1300:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1}
+Number of nodes: 1400:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 1500:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 5}
+Number of nodes: 1600:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3}
+Number of nodes: 1700:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 8, 5: 5, 6: 1, 7: 2, 8: 3}
+Number of nodes: 1800:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 8, 5: 5, 6: 5, 7: 8, 8: 4}
+Number of nodes: 1900:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 2000:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 3}
+Number of nodes: 2100:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 1}
+Number of nodes: 2200:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 2300:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3, 7: 4}
+Number of nodes: 2400:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3}
+Number of nodes: 2500:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 4}
+Number of nodes: 2600:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 1}
+Number of nodes: 2700:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 2800:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5}
+Number of nodes: 2900:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 3000:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 8, 8: 3}
+Number of nodes: 3100:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 8, 5: 6, 6: 1, 7: 1}
+Number of nodes: 3200:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 8, 5: 6, 6: 3, 7: 4, 8: 3}
+Number of nodes: 3300:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2, 16: 4}
+Number of nodes: 3400:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 4}
+Number of nodes: 3500:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2}
+Number of nodes: 3600:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 4}
+Number of nodes: 3700:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 3800:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 3900:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 2}
+Number of nodes: 4000:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 4100:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2}
+Number of nodes: 4200:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 2}
+Number of nodes: 4300:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 5, 16: 2}
+Number of nodes: 4400:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 2}
+Number of nodes: 4500:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 8, 5: 5, 6: 5, 7: 4, 8: 1}
+Number of nodes: 4600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 1, 7: 2}
+Number of nodes: 4700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 1, 7: 8, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 7, 14: 5, 15: 2}
+Number of nodes: 4800:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2, 16: 4}
+Number of nodes: 4900:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 3, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 4}
+Number of nodes: 5000:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1, 7: 4}
+Number of nodes: 5100:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1}
+Number of nodes: 5200:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2}
+Number of nodes: 5300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3}
+Number of nodes: 5400:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 5500:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 5600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 1, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3}
+Number of nodes: 5700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 8, 14: 5, 15: 2}
+Number of nodes: 5800:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7}
+Number of nodes: 5900:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3}
+Number of nodes: 6000:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 6100:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 5}
+Number of nodes: 6200:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 5, 16: 2}
+Number of nodes: 6300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 8, 14: 6, 15: 2}
+Number of nodes: 6400:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 6, 5: 5, 6: 1, 7: 4}
+Number of nodes: 6500:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 6, 5: 5, 6: 3, 7: 6}
+Number of nodes: 6600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 8, 5: 6, 6: 3, 7: 4}
+Number of nodes: 6700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 8, 5: 5, 6: 3, 7: 2, 8: 3}
+Number of nodes: 6800:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 1, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2}
+Number of nodes: 6900:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 5, 7: 2}
+Number of nodes: 7000:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 7100:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 2, 5: 5, 6: 3, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 5}
+Number of nodes: 7200:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 4, 5: 5, 6: 1, 7: 6, 8: 3}
+Number of nodes: 7300:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 1, 7: 2}
+Number of nodes: 7400:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 1, 7: 8, 8: 3, 9: 4}
+Number of nodes: 7500:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 5, 7: 6, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 7600:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 5}
+Number of nodes: 7700:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 6, 5: 5, 6: 3, 7: 6, 8: 3, 9: 4, 10: 8}
+Number of nodes: 7800:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 8, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 7900:	partial assignment: {1: 2, 2: 6, 3: 1, 4: 8, 5: 5, 6: 3, 7: 2, 8: 3}
+Number of nodes: 8000:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 4, 5: 6, 6: 5}
+Number of nodes: 8100:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 8, 5: 6, 6: 1, 7: 8, 8: 4}
+Number of nodes: 8200:	partial assignment: {1: 5, 2: 1, 3: 6, 4: 4, 5: 2, 6: 1, 7: 4, 8: 3}
+Number of nodes: 8300:	partial assignment: {1: 5, 2: 1, 3: 6, 4: 8, 5: 2, 6: 1, 7: 4, 8: 3}
+Number of nodes: 8400:	partial assignment: {1: 5, 2: 1, 3: 6, 4: 8, 5: 2, 6: 3, 7: 1}
+Number of nodes: 8500:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 4, 5: 6, 6: 5}
+Number of nodes: 8600:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 8, 5: 6, 6: 1, 7: 4, 8: 3}
+Number of nodes: 8700:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 8, 5: 6, 6: 3, 7: 8, 8: 1}
+Number of nodes: 8800:	partial assignment: {1: 5, 2: 4, 3: 6, 4: 4, 5: 2, 6: 5, 7: 1}
+Number of nodes: 8900:	partial assignment: {1: 5, 2: 4, 3: 6, 4: 8, 5: 2, 6: 1, 7: 8}
+Number of nodes: 9000:	partial assignment: {1: 5, 2: 4}
+Number of nodes: 9100:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 2}
+Number of nodes: 9200:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 4, 5: 2, 6: 3, 7: 6, 8: 3}
+Number of nodes: 9300:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 8}
+Number of nodes: 9400:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 6, 5: 2, 6: 3, 7: 6, 8: 3, 9: 8}
+Number of nodes: 9500:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 8, 5: 2, 6: 3, 7: 6, 8: 3}
+Number of nodes: 9600:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 8, 5: 6, 6: 3, 7: 8, 8: 3}
+Number of nodes: 9700:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 4, 5: 2, 6: 3, 7: 4, 8: 3}
+Number of nodes: 9800:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 6, 5: 2, 6: 5, 7: 6, 8: 3, 9: 8}
+Number of nodes: 9900:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 8, 5: 2, 6: 1, 7: 6}
+Number of nodes: 10000:	partial assignment: {1: 5, 2: 6, 3: 1, 4: 8, 5: 2, 6: 3, 7: 8}
+Number of nodes: 10100:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 10200:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 10300:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 4, 5: 6}
+Number of nodes: 10400:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 6}
+Number of nodes: 10500:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 8, 5: 6, 6: 3, 7: 2, 8: 4}
+Number of nodes: 10600:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 10700:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 5, 6: 1}
+Number of nodes: 10800:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 5, 6: 3}
+Number of nodes: 10900:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 6, 5: 5, 6: 5, 7: 6, 8: 3, 9: 4, 10: 8}
+Number of nodes: 11000:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 6, 5: 5, 6: 3}
+Number of nodes: 11100:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 11200:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 5, 6: 1, 7: 1, 8: 4}
+Number of nodes: 11300:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 5, 6: 3, 7: 6, 8: 3, 9: 4}
+Number of nodes: 11400:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 4}
+Number of nodes: 11500:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 4}
+Number of nodes: 11600:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 4, 5: 2, 6: 1, 7: 6}
+Number of nodes: 11700:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 4, 5: 2, 6: 3, 7: 6}
+Number of nodes: 11800:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 4, 5: 6, 6: 5, 7: 1, 8: 3}
+Number of nodes: 11900:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 6, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 12000:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 6, 5: 2, 6: 3, 7: 4, 8: 3}
+Number of nodes: 12100:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 12200:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 2, 6: 3, 7: 6}
+Number of nodes: 12300:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 6, 6: 1, 7: 8, 8: 4}
+Number of nodes: 12400:	partial assignment: {1: 7, 2: 1, 3: 5, 4: 8, 5: 6, 6: 3, 7: 1, 8: 4}
+Number of nodes: 12500:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 2, 5: 5}
+Number of nodes: 12600:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3}
+Number of nodes: 12700:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 4, 5: 2, 6: 5, 7: 4}
+Number of nodes: 12800:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 12900:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3}
+Number of nodes: 13000:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 8, 5: 2, 6: 5, 7: 8, 8: 4}
+Number of nodes: 13100:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 8, 5: 5, 6: 1, 7: 8}
+Number of nodes: 13200:	partial assignment: {1: 7, 2: 1, 3: 6, 4: 8, 5: 5, 6: 3, 7: 1, 8: 4}
+Number of nodes: 13300:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 6, 6: 1, 7: 8, 8: 1, 9: 5, 10: 8, 11: 3}
+Number of nodes: 13400:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 6, 6: 5, 7: 8, 8: 1, 9: 5, 10: 8, 11: 3}
+Number of nodes: 13500:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 6, 6: 3, 7: 8}
+Number of nodes: 13600:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 1, 7: 1, 8: 3}
+Number of nodes: 13700:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 5, 7: 6, 8: 1}
+Number of nodes: 13800:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 4, 5: 5, 6: 3, 7: 4, 8: 1, 9: 6, 10: 8, 11: 3, 12: 3, 13: 8, 14: 1, 15: 5}
+Number of nodes: 13900:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 6, 5: 5, 6: 1, 7: 4, 8: 3}
+Number of nodes: 14000:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 6, 5: 5, 6: 5, 7: 1}
+Number of nodes: 14100:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 6, 6: 1, 7: 4, 8: 3}
+Number of nodes: 14200:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 6, 6: 3, 7: 4}
+Number of nodes: 14300:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 5, 6: 5, 7: 4, 8: 1, 9: 6}
+Number of nodes: 14400:	partial assignment: {1: 7, 2: 4, 3: 2, 4: 8, 5: 5, 6: 3, 7: 8, 8: 1}
+Number of nodes: 14500:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 2, 8: 1}
+Number of nodes: 14600:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3, 7: 4, 8: 3}
+Number of nodes: 14700:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8}
+Number of nodes: 14800:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 5, 7: 4, 8: 1, 9: 6, 10: 8, 11: 3, 12: 3, 13: 8, 14: 6}
+Number of nodes: 14900:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 3, 7: 4, 8: 1}
+Number of nodes: 15000:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 2, 6: 3, 7: 8, 8: 1, 9: 6, 10: 8, 11: 3, 12: 3}
+Number of nodes: 15100:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 1, 8: 3}
+Number of nodes: 15200:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 15300:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 2, 13: 8, 14: 1, 15: 5, 16: 2, 17: 4}
+Number of nodes: 15400:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 6, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 15500:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 6, 5: 2, 6: 3, 7: 4, 8: 3}
+Number of nodes: 15600:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 2, 6: 1, 7: 1, 8: 3}
+Number of nodes: 15700:	partial assignment: {1: 7, 2: 4, 3: 5, 4: 8, 5: 2, 6: 3}
+Number of nodes: 100:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 1, 8: 4}
+Number of nodes: 200:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8}
+Number of nodes: 300:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 1, 8: 4}
+Number of nodes: 400:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 4}
+Number of nodes: 500:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8}
+Number of nodes: 600:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8, 8: 4}
+Number of nodes: 700:	partial assignment: {1: 2, 2: 1, 3: 5, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3}
+Number of nodes: 800:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2}
+Number of nodes: 900:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1}
+Number of nodes: 1000:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2, 16: 1}
+Number of nodes: 1100:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1}
+Number of nodes: 1200:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 1, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2, 16: 1}
+Number of nodes: 1300:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 1, 14: 1, 15: 2}
+Number of nodes: 1400:	partial assignment: {1: 2, 2: 1, 3: 6, 4: 4, 5: 5, 6: 5, 7: 1}
+Number of nodes: 1500:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 1600:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 1, 7: 8, 8: 1}
+Number of nodes: 1700:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3}
+Number of nodes: 1800:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 5, 7: 8, 8: 1}
+Number of nodes: 1900:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 2000:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 2, 5: 6, 6: 3, 7: 8, 8: 1}
+Number of nodes: 2100:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 2200:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 1, 7: 8, 8: 1}
+Number of nodes: 2300:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 2400:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 2500:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 2}
+Number of nodes: 2600:	partial assignment: {1: 2, 2: 4, 3: 5, 4: 4, 5: 6, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 2700:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 4}
+Number of nodes: 2800:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 1, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3}
+Number of nodes: 2900:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 4}
+Number of nodes: 3000:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 3100:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 3200:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2}
+Number of nodes: 3300:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 3400:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 3500:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7}
+Number of nodes: 3600:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 5, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 2}
+Number of nodes: 3700:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1, 15: 5, 16: 2}
+Number of nodes: 3800:	partial assignment: {1: 2, 2: 4, 3: 6, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3, 9: 1, 10: 8, 11: 2, 12: 7, 13: 7, 14: 1}
+Number of nodes: 3900:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 8, 14: 3, 15: 2, 16: 4}
+Number of nodes: 4000:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2, 16: 4}
+Number of nodes: 4100:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 3, 7: 4, 8: 3, 9: 5, 10: 8, 11: 2}
+Number of nodes: 4200:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3}
+Number of nodes: 4300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 1, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 8, 14: 6, 15: 2}
+Number of nodes: 4400:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 5, 7: 4, 8: 3, 9: 8}
+Number of nodes: 4500:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 5, 7: 8, 8: 3}
+Number of nodes: 4600:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 4700:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 2, 5: 5, 6: 3, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5}
+Number of nodes: 4800:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 1}
+Number of nodes: 4900:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 5}
+Number of nodes: 5000:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 6, 6: 3, 7: 4}
+Number of nodes: 5100:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 6, 15: 5, 16: 2}
+Number of nodes: 5200:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3, 9: 6, 10: 8}
+Number of nodes: 5300:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 5, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 8, 14: 6, 15: 5, 16: 2, 17: 4}
+Number of nodes: 5400:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 3, 7: 4, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 5500:	partial assignment: {1: 2, 2: 4, 3: 1, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3, 9: 6, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 5, 16: 2}
+Number of nodes: 5600:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 4, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 5700:	partial assignment: {1: 5, 2: 1, 3: 2, 4: 8, 5: 6, 6: 5, 7: 1, 8: 4}
+Number of nodes: 5800:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 4, 5: 6, 6: 1, 7: 8, 8: 1}
+Number of nodes: 5900:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 4, 5: 6, 6: 3, 7: 8, 8: 1}
+Number of nodes: 6000:	partial assignment: {1: 5, 2: 4, 3: 2, 4: 8, 5: 6, 6: 5, 7: 8, 8: 3}
+Number of nodes: 6100:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 2, 5: 6, 6: 5, 7: 4, 8: 3}
+Number of nodes: 6200:	partial assignment: {1: 5, 2: 4, 3: 1, 4: 4, 5: 2, 6: 5, 7: 4}
+Number of nodes: 6300:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 1, 7: 4, 8: 3}
+Number of nodes: 6400:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 5, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7}
+Number of nodes: 6500:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 2, 5: 6, 6: 3, 7: 8, 8: 3, 9: 4, 10: 8, 11: 2, 12: 7, 13: 7, 14: 3, 15: 2}
+Number of nodes: 6600:	partial assignment: {1: 5, 2: 2, 3: 1, 4: 4, 5: 6, 6: 3, 7: 2, 8: 3}
+Number of nodes: 6700:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 6, 6: 5}
+Number of nodes: 6800:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 5, 6: 1, 7: 8, 8: 3, 9: 6}
+Number of nodes: 6900:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 4, 5: 5, 6: 3, 7: 8, 8: 3, 9: 6}
+Number of nodes: 7000:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 6, 5: 5, 6: 5, 7: 1, 8: 3, 9: 4, 10: 8}
+Number of nodes: 7100:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 6, 6: 1}
+Number of nodes: 7200:	partial assignment: {1: 7, 2: 1, 3: 2, 4: 8, 5: 6, 6: 3, 7: 1, 8: 4}
